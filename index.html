@@ -13,7 +13,30 @@
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container header__container">
+            <picture class="header__logo">
+                <source srcset="./images/logo_lg.jpg 1x, ./images/logo_lg@2x.jpg 2x"
+                media="(min-width: 1280px)"
+                type="image/jpeg"/>
+                <source srcset="./images/logo_md.jpg 1x, ./images/logo_md@2x.jpg 2x"
+                media="(min-width: 768px)"
+                type="image/jpeg"/>
+                <source srcset="./images/logo_sm.jpg 1x, ./images/logo_sm@2x.jpg 2x"
+                media="(min-width: 480px)"
+                type="image/jpeg"/>
+                <img src="./images/logo_sm.jpg" alt="Company logo">
+            </picture>
+            <button type="button" data-menu-button class="menu__btn" is-open aria-expanded="false">
+                <svg width="20px" height="12px" aria-label="Переключатель мобильного меню">
+                    <use class="menu__icon--menu"   href="./Images/symbol-defs.svg#Burger"></use>
+                    <use  class="menu__icon--close"   href="./Images/symbol-defs.svg#close"></use>
+                </svg>
+            </button>
+
+        </div>
+    </header>
+
 
     <script src="./js/menu.js"></script>   
 </body>
