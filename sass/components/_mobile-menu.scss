@@ -21,10 +21,13 @@
     opacity: 0;
 }
 .menu__btn.is-active .menu__icon--close{
-    opacity: 1;}
+    opacity: 1;
+    fill:rgba(212, 20, 67, 1);
+    }
 
 .menu__icon--menu{
     opacity: 1;
+    fill:rgba(212, 20, 67, 1);
 }
 .menu__btn.is-active .menu__icon--menu{opacity: 0;}
 
