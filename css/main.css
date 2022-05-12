@@ -200,14 +200,19 @@ img {
 
 .product__thumb {
   display: block;
+  position: relative;
 }
 
 .products__thumb::before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
   content: "";
+  display: block;
   width: 280px;
   height: 280px;
   background-image: url(../../images/pic1_sm.png);
-  background-position: bottom 140px;
 }
 
 .ptoducts__item:nth-child(2) {
@@ -228,8 +233,17 @@ img {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #FFFFFF;
-  margin-top: 20px;
+  margin-top: 160px;
   margin-bottom: 32px;
+}
+
+.products__name::after {
+  content: "";
+  display: block;
+  background-image: url(../../icons/dots_sm.png);
+  width: 26px;
+  height: 6px;
+  margin: 32px auto;
 }
 
 .products__desc {
@@ -243,5 +257,19 @@ img {
   text-align: center;
   letter-spacing: 0.04em;
   color: #FFFFFF;
+}
+
+.products__btn {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image: url(../../icons/arrow-right.svg);
+  background-position: center;
+  border: transparent;
+  margin-top: 32px;
+  margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
 }
 /*# sourceMappingURL=main.css.map */
