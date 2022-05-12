@@ -11,10 +11,10 @@
     display: block;
     position: relative;
 
-    height: 489px;
+    height: 629px;
     border-radius: 24px;
 }
-.product__thumb{
+.products__thumb{
     display: block;
     text-align: center;
 }
@@ -71,7 +71,9 @@
     height: 280px;
     background-image:url(../../images/pic3_sm.png);
 }
-
+.products__item:not(:last-child){
+    margin-bottom: 140px;
+}
 
 .products__name{
     display: inline-block;
@@ -87,8 +89,7 @@
 
     margin-top: 160px;
     margin-bottom: 32px;
-    margin-left: auto;
-    margin-right: auto;
+   
    
 }
 
