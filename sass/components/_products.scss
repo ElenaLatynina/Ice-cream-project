@@ -14,9 +14,18 @@
 .ptoducts__item:nth-child(1){
     background-color:  #FFB8CA;
 }
-.products__item:nth-child(1)::before{
-    content:"";
-    background-image:url();
+
+.product__thumb{
+    display: block;
+}
+.products__thumb::before{
+    content: "";
+    width: 280px;
+    height: 280px;
+    background-image:url(../../images/pic1_sm.png);
+    background-position:bottom 140px ;
+
+    
 
 }
 .ptoducts__item:nth-child(2){
@@ -39,5 +48,21 @@
     text-transform: uppercase;
     color: #FFFFFF;
 
-    margin-bottom: 14px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+
+.products__desc{
+    margin-left: 40px;
+    margin-right: 40px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.52;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+
 }
