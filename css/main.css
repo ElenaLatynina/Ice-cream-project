@@ -198,6 +198,11 @@ img {
   background-color: #FFB8CA;
 }
 
+.products__item:nth-child(1)::before {
+  content: "";
+  background-image: url(../../images/pic1_sm.jpg);
+}
+
 .ptoducts__item:nth-child(2) {
   background-color: #F0D1A5;
 }
