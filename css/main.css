@@ -104,6 +104,11 @@ img {
   background-color: #ffb8ca;
 }
 
+.nav__list {
+  display: flex;
+  text-align: center;
+}
+
 .menu__btn {
   position: relative;
   display: inline-flex;
@@ -122,23 +127,16 @@ img {
   }
 }
 
-.menu__btn:hover,
-.menu__btn:focus .menu__icon {
-  fill: #FFFFFF;
-}
-
 .menu__icon--close {
   opacity: 0;
 }
 
 .menu__btn.is-active .menu__icon--close {
   opacity: 1;
-  fill: #d41443;
 }
 
 .menu__icon--menu {
   opacity: 1;
-  fill: #d41443;
 }
 
 .menu__btn.is-active .menu__icon--menu {
