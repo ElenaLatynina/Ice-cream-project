@@ -5,4 +5,23 @@
 
     display: flex;
     text-align: center;
+    margin-left: 175px;
+}
+
+.nav__item:not(:last-child){
+    margin-right: 35px;
+}
+
+.nav__link{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.D41443;
+    color: #FFFFFF;
+
+}
+
+.nav__link:hover,
+.nav__link:focus{
+    color:#D41443;
 }

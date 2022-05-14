@@ -110,12 +110,28 @@ img {
 .nav__list {
   display: flex;
   text-align: center;
+  margin-left: 175px;
 }
 
 @media screen and (max-width: 1279px) {
   .nav__list {
     display: none;
   }
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 35px;
+}
+
+.nav__link {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
 }
 
 .menu__btn {
@@ -199,8 +215,7 @@ img {
 
 @media screen and (min-width: 1280px) {
   .mobile {
-    width: 320px;
-    height: 1020px;
+    display: none;
   }
 }
 
@@ -234,6 +249,7 @@ img {
   border: transparent;
   height: 44px;
   margin-bottom: 18px;
+  padding: 12px 40px;
 }
 
 @media screen and (max-width: 767px) {
@@ -246,6 +262,20 @@ img {
   .btn {
     width: 186px;
   }
+}
+
+.btn__text {
+  display: block;
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #D41443;
+}
+
+.btn__icon {
+  fill: #D41443;
+  margin-left: 15px;
 }
 
 .products {
