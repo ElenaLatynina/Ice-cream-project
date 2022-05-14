@@ -1,11 +1,13 @@
 .menu__btn{
+    position: fixed;
+    right: 20px;
+
     width: 20px;
     height: 20px;
     margin-left: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
     
     margin: 0;
     padding: 0;
@@ -13,6 +15,10 @@
     background-color: transparent;
     z-index: 8;
     cursor: pointer;
+
+    
+
+  cursor: pointer;
 
     @media screen and(min-width:1280px) {display: none;}
     
@@ -44,6 +50,7 @@
     top:0;
     right: 0;
     padding-left: 20px;
+    padding-right: 20px;
     padding-top: 60px;
    
     display: flex;
@@ -61,7 +68,7 @@
 
     @media screen and (max-width:767px) {
         max-width: 250px;
-        height: 502px;
+        height: 100%vh;
         
     }
     @media screen and (min-width:768px) and (max-width:1279px){
@@ -95,12 +102,15 @@
     line-height: 1.29;
     color:rgba(255, 255, 255, 1);
     
-
-    &--current{
-        color:
-        rgba(212, 20, 67, 1);
-    }
+    
 }
+
+.mobile__link:hover,
+.mobile__link:focus{
+    color:
+        rgba(212, 20, 67, 1);
+}
+
 
 .btn{
     background: #FFFFFF;
@@ -112,8 +122,7 @@
 
     @media screen and (max-width:767px){
         width: 209px;
-        margin-left: auto;
-        margin-right: auto;
+        
     }
 
     @media screen and (min-width:768px) and (max-width:1279px){
