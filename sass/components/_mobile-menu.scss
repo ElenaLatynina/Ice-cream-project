@@ -44,10 +44,10 @@
     top:0;
     right: 0;
     padding-left: 20px;
-
+    padding-top: 60px;
+   
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 
     width: 100vw;
     height: 100vh;
@@ -102,3 +102,22 @@
     }
 }
 
+.btn{
+    background: #FFFFFF;
+    border-radius: 22px;
+    border:transparent;
+   
+    height: 44px;
+    margin-bottom: 18px;
+
+    @media screen and (max-width:767px){
+        width: 209px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @media screen and (min-width:768px) and (max-width:1279px){
+        width: 186px;
+    }
+    
+}
