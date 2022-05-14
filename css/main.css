@@ -116,6 +116,82 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  z-index: 8;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1280px) {
+  .menu__btn {
+    display: none;
+  }
+}
+
+.menu__btn:hover,
+.menu__btn:focus .menu__icon {
+  fill: #FFFFFF;
+}
+
+.menu__icon--close {
+  opacity: 0;
+}
+
+.menu__icon--menu {
+  opacity: 1;
+  fill: #d41443;
+}
+
+.menu__btn.is-active .menu__icon--menu {
+  opacity: 0;
+}
+
+.menu__btn.is-active .menu__icon--close {
+  opacity: 1;
+  fill: #d41443;
+}
+
+.mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+  background-color: #e17992;
+  opacity: 0;
+  transform: translateX(100%);
+  transition: transform 250 ms linear;
+  z-index: 7;
+}
+
+.mobile.is-open {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.mobile__item:not(:last-child) {
+  display: block;
+  margin-bottom: 23px;
+}
+
+.mobile__link {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.29;
+  color: white;
+}
+
+.mobile__link--current {
+  color: #d41443;
 }
 
 .products {

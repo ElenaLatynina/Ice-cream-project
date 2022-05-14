@@ -40,15 +40,13 @@
                 <li><a class="link nav__item" href="">Contact</a></li>
             </ul>
             
-            <button class="menu__btn"  type="button">
+            <button class="menu__btn" data-menu-button type="button" aria-expanded="false">
                 <svg class="menu__icon" width="20px" height="20px">
                     <use class="menu__icon--menu" href="./images/symbol-defs.svg#menu"></use>
                     <use class="menu__icon--close"  href="./images/symbol-defs.svg#close"></use>
                 </svg>
-
-
             </button>
-            <div class="mobile" >
+            <div class="mobile" data-menu>
                 <button type="button"><span>
                     Buy now
                 </span>
@@ -127,6 +125,6 @@
     </footer>
 
 
-    <!-- <script src="./js/menu.js"></script>    -->
+    <script src="./js/menu.js"></script>   
 </body>
 </html>
