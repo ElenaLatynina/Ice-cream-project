@@ -113,7 +113,9 @@ img {
   width: 20px;
   height: 20px;
   margin-left: auto;
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .products {
