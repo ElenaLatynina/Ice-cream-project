@@ -17,7 +17,8 @@
     cursor: pointer;
 
   @media screen and(min-width:768px) and (max-width:1279px) {
-    position: absolute;
+      .menu__btn{position: absolute;}
+   
       
   }
 
@@ -45,7 +46,8 @@
     opacity: 1;
     fill:rgba(212, 20, 67, 1);
 }
-.menu__btn.is-active .menu__icon--menu{opacity: 0;}
+.menu__btn.is-active .menu__icon--menu
+{opacity: 0;}
 
 .menu__btn.is-active .menu__icon--close{
     opacity: 1;
