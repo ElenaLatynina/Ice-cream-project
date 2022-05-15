@@ -10,15 +10,26 @@
     padding: 40px 32px;
 
     border-radius: 4px;
-    
+    border:1px solid rgba(225, 225, 225, 1);
+    box-shadow: (212, 20, 67, 0.1);
 }
 
 .contacts__type{
-    box-sizing: border-box;
+    display: block;
     width: 80px;
     height: 16px;
     background-color: #F0D1A5;
     border-radius: 4px;
+
+    font-size: 12px;
+    color: #ffffff;
+    font-family:DM Sans;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+
+    margin-bottom: 20px;
+    
 }
 
 .contacts__text{
@@ -27,9 +38,21 @@
     font-size: 12px;
     line-height: 1.86;
     color: #000000;
+
+    margin-bottom: 8px;
 }
 
-.contacts__tume{
+.contact__desc{
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.150;
+    color: #907E82;
+
+}
+
+
+.contacts__time{
     font-family:DM Sans;
     font-weight: 500;
     font-size: 12px;
@@ -45,4 +68,20 @@
     line-height: 1.5;
     color: #907E82;
 
+}
+
+.contacts__item__link:not(:last-child)
+{
+    display: block;
+    border-bottom: 1px solid 
+    rgba(225, 225, 225, 1);
+   
+}
+
+.contacts__item__link:not(:first-child){
+    padding-top: 24px;
+}
+
+.contacts__item__link:not(:last-child){
+    padding-bottom: 24px;
 }
