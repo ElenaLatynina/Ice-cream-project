@@ -64,3 +64,43 @@
     color: #D41443;
 
 }
+
+.btn{
+    background: #FFFFFF;
+    border-radius: 22px;
+    border:transparent;
+   
+    height: 44px;
+    margin-bottom: 18px;
+
+   padding: 12px 40px;
+
+    @media screen and (max-width:767px){
+        width: 209px;
+        
+    }
+
+    @media screen and (min-width:768px) and (max-width:1279px){
+        width: 186px;
+        order: 2;
+    }
+    
+    @media screen and (min-width:1280px){
+        width: 144px;
+        margin-bottom: 0;
+        
+    }
+}
+.btn__text{
+    display: block;
+    font-family:DM Sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.31;
+    color: #D41443;
+}
+
+.btn__icon{
+    fill:#D41443;
+    margin-left: 15px;
+}
