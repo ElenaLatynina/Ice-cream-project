@@ -1,29 +1,27 @@
-
 .btn{
-    background: #FFFFFF;
-    border-radius: 22px;
-    border:transparent;
-   
+    display: block;
     height: 44px;
+    padding: 12px 44px;
 
-    padding: 12px 40px;
+    background-color: #FFFFFF;
+    border-radius: 22px;
+    border: transparent;
 
-    @media screen and (max-width:767px){
+    @media screen and(min-width:767px){
         width: 209px;
-        
     }
 
-    @media screen and (min-width:768px) and (max-width:1279px){
+    @media screen and(min-width:768px) and (max-width:1279px){
         width: 186px;
         
     }
-    
-    @media screen and (min-width:1280px){
+
+    @media screen  and(min-width:1280px){
         width: 144px;
-        margin-bottom: 0;
-        
     }
 }
+
+
 .btn__text{
     display: block;
     font-family:DM Sans;
