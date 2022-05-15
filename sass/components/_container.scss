@@ -12,12 +12,12 @@
       width: 768px;
       padding: 0 32px;
       display: flex;
-      justify-content: space-between
-      align-items:center;
+      justify-content: space-between;
+      align-items: center;
     }
   
     @media screen and(min-width:1280px) {
-      width:1280px;
+      width: 1280px;
       padding: 0 16px;
     }
   }
