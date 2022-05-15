@@ -16,9 +16,10 @@
     z-index: 8;
     cursor: pointer;
 
-    
-
-  cursor: pointer;
+  @media screen and(min-width:768px) and (max-width:1279px) {
+    position: absolute;
+      
+  }
 
     @media screen and(min-width:1280px) {display: none;}
     
@@ -27,6 +28,13 @@
 .menu__btn:hover,
 .menu__btn:focus .menu__icon{
     fill: #FFFFFF;
+}
+
+.menu__btn.is-active{
+    @media screen and(min-width:768px) and (max-width:1279px){
+        top:-20px;
+        right: 32px;
+    }
 }
 
 .menu__icon--close{
@@ -44,8 +52,7 @@
     fill:rgba(212, 20, 67, 1);
     }
 
-
-.mobile{
+    .mobile{
     position: fixed;
     top:0;
     right: 0;
@@ -72,7 +79,7 @@
         
     }
     @media screen and (min-width:768px) and (max-width:1279px){
-        width: 254px;
+        min-width: 254px;
         height: 100vh;
         
     }
