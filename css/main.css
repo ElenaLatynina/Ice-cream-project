@@ -164,9 +164,7 @@ img {
 }
 
 .btn__icon--inverse {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+  display: block;
   fill: #FFFFFF;
   margin-left: 15px;
 }
@@ -190,6 +188,13 @@ img {
   .btn--mobile {
     width: 186px;
   }
+}
+
+.contacts__buttons__list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 32px;
 }
 
 .contacts__btn {
@@ -222,12 +227,13 @@ img {
   }
 }
 
-.contacts__btn--inverse {
+.contacts__link--inverse {
   display: flex;
   justify-content: center;
   text-align: center;
   height: 44px;
   padding: 14px;
+  margin: 0;
   background-color: #D41342;
   color: #FFFFFF;
   border-radius: 22px;
@@ -235,19 +241,19 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .contacts__btn--inverse {
+  .contacts__link--inverse {
     width: 161px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .contacts__btn--inverse {
+  .contacts__link--inverse {
     width: 174px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .contacts__btn--inverse {
+  .contacts__link--inverse {
     width: 198px;
   }
 }

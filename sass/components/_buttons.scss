@@ -46,11 +46,10 @@
 }
 
 .btn__icon--inverse{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+   display: block;
     fill:#FFFFFF;
     margin-left: 15px;
+    // padding: 14px;
 }
 
 .btn--mobile{
@@ -73,7 +72,13 @@
         
     }
 }
-
+.contacts__buttons__list{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 32px;
+    
+}
 .contacts__btn{
     display: flex;
     justify-content: center;
@@ -101,12 +106,13 @@
 }
 
 
-.contacts__btn--inverse{
+.contacts__link--inverse{
     display: flex;
     justify-content: center;
     text-align: center;
     height: 44px;
     padding: 14px;
+    margin: 0;
 
     background-color:#D41342;
     color: #FFFFFF;
