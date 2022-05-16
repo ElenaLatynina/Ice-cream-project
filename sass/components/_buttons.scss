@@ -46,10 +46,9 @@
 }
 
 .btn__icon--inverse{
-   display: block;
     fill:#FFFFFF;
     margin-left: 15px;
-    // padding: 14px;
+  
 }
 
 .btn--mobile{
@@ -110,13 +109,13 @@
 }
 
 
-.contacts__link--inverse{
+.contacts__btn--inverse{
     display: flex;
     justify-content: center;
     text-align: center;
     height: 44px;
     padding: 14px;
-    margin: 0;
+    
 
     background-color:#D41342;
     color: #FFFFFF;
