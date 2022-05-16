@@ -482,21 +482,57 @@ img {
   margin-left: auto;
 }
 
+.section__contacts {
+  background-image: linear-gradient(180deg, #fff 23%, #FFF5F6);
+}
+
+@media screen and (min-width: 768px) {
+  .contacts__list {
+    display: flex;
+    margin-top: -32px;
+    margin-left: -32px;
+  }
+}
+
 .contacts__item {
   display: block;
   width: 280px;
   height: 412px;
   padding: 40px 32px;
-  border-radius: 4px;
+  background-color: #ffffff;
+  border-radius: 24px;
   border: 1px solid #e1e1e1;
-  box-shadow: 212, 20, 67, 0.1;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
 }
 
-.contacts__item:not(:last-child) {
-  margin-bottom: 20px;
+@media screen and (max-width: 767px) {
+  .contacts__item .contacts__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
 }
 
-.contacts__type {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .contacts__item {
+    flex-basis: calc(100%/3 - 32px);
+    height: 528px;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contacts__item {
+    flex-basis: calc(100%/3 - 32px);
+    height: 538px;
+    padding: 40px;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-bottom: 50px;
+  }
+}
+
+.contacts__type--cafe {
   display: block;
   width: 80px;
   height: 16px;
@@ -508,6 +544,21 @@ img {
   font-weight: 500;
   line-height: 1.5;
   text-align: center;
+  margin-bottom: 20px;
+}
+
+.contacts__type {
+  display: block;
+  width: 80px;
+  height: 16px;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #ffffff;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  background-color: #c2e297;
   margin-bottom: 20px;
 }
 
@@ -525,18 +576,7 @@ img {
   font-weight: 500;
   font-size: 12px;
   line-height: 1.150;
-}
-
-.contacts__type:nth-child(1) {
-  background-color: #907E82;
-}
-
-.contacts__type:nth-child(2) {
-  background-color: #c2e297;
-}
-
-.contacts__type:nth-child(3) {
-  background-color: #f0d1a5;
+  color: #907E82;
 }
 
 .contacts__time {
