@@ -121,7 +121,7 @@ img {
   align-items: center;
   justify-content: center;
   height: 44px;
-  padding: 12px 44px;
+  padding: 12px;
   background-color: #FFFFFF;
   border-radius: 22px;
   border: transparent;
@@ -129,7 +129,7 @@ img {
 
 @media screen and (max-width: 767px) {
   .btn {
-    width: 209px;
+    width: 161px;
   }
 }
 

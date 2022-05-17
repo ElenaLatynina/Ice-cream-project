@@ -4,14 +4,14 @@
     align-items:center;
     justify-content: center;
     height: 44px;
-    padding: 12px 44px;
+    padding: 12px ;
 
     background-color: #FFFFFF;
     border-radius: 22px;
     border: transparent;
 
     @media screen and(max-width:767px){
-        width: 209px;
+        width: 161px;
     }
 
     @media screen and(min-width:768px) and (max-width:1279px){
