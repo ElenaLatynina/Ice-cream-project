@@ -33,7 +33,10 @@
 
     @media screen and(min-width:1280px) {
       padding: 35px 16px;
-      align-items: baseline;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
     }
    
 }

@@ -109,12 +109,17 @@ img {
 @media screen and (min-width: 1280px) {
   .header__container {
     padding: 35px 16px;
-    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 
 .btn {
   display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 44px;
   padding: 12px 44px;
   background-color: #FFFFFF;
