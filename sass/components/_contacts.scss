@@ -22,11 +22,6 @@
     border:1px solid rgba(225, 225, 225, 1);
     box-shadow:  0px 8px 30px rgba(212, 20, 67, 0.1);
 
-    @media screen and (max-width:767px){
-        .contacts__item:not(:last-child){
-            margin-bottom: 20px;
-        }
-    }
 
     @media screen and(min-width:768px) and(max-width:1279px) {
         flex-basis:calc(100%/3 - 32px);
@@ -48,6 +43,11 @@
     }
 }
 
+@media screen and (max-width:767px){
+    .contacts__item:not(:last-child){
+        margin-bottom: 20px;
+    }
+}
 .contacts__type--cafe{
     display: block;
     width: 80px;
@@ -110,7 +110,9 @@
     line-height: 1.86;
     color: #FFA5BA;
 
+
 }
+
 
 .contacts__info{
     font-family: DM Sans;
