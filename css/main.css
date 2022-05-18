@@ -85,9 +85,6 @@ img {
   .container {
     width: 768px;
     padding: 0 32px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
 }
 
@@ -483,7 +480,7 @@ img {
 
 .ptoducts__item:nth-child(1)::before {
   position: absolute;
-  top: 0;
+  top: -5%;
   left: 50%;
   transform: translate(-50%, -50%);
   content: "";
