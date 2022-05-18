@@ -78,14 +78,33 @@
 }
 .contacts__buttons__list{
     display: flex;
-    flex-direction: column;
     text-align: center;
     justify-content: center;
-    margin-top: 32px;
+
+    @media screen and(max-width:767px) {
+        flex-direction: column;
+        margin-top: 32px;
+    }
     
+    @media screen and(min-width:768px) and(max-width:1279px) {
+        margin-top: 40px;
+        
+    }
+    
+    @media screen and(min-width:1280px)  {
+        margin-top: 60px;
+        
+    }
+
 }
-.contacts__buttons__item:nth-child(1){
-    margin-bottom: 8px;
+.btn__list{
+    @media screen and(max-width:767px){
+        margin-bottom: 10px;
+    }
+    
+    @media screen and(min-width:768px){
+        margin-right: 15px;
+    }
 }
 
 .contacts__btn{
