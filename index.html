@@ -14,67 +14,70 @@
 <body>
 
     <header class="header">
-        <div class="container header__container">
-            <a class="logo"
-            href="">
-                <img src="./images/logo_sm.png" alt="Company logo" width="199px" height="50px">
-            </picture></a>
-            
-            <ul class="nav__list">
-                <li class="nav__item"> 
-                    <a class="link nav__link" href="./index.html">Home</a>
-                </li>
-                <li class="nav__item"><a class="link nav__link" href="#about">About us</a></li>
-                <li class="nav__item"><a class="link nav__link" href="#advantages">How it’s made?</a></li>
-                <li class="nav__item"><a class="link nav__link" href="#products">Our products</a></li>
-                <li class="nav__item"><a class="link nav__link" href="#contacts">Contact</a></li>
-            </ul>
-            <button class="menu__btn" data-menu-button type="button" aria-expanded="false">
-                <svg class="menu__icon" width="20px" height="20px">
-                    <use class="menu__icon--menu" href="./images/symbol-defs.svg#menu"></use>
-                    <use class="menu__icon--close"  href="./images/symbol-defs.svg#close"></use>
-                </svg>
-            </button>
-            <div class="mobile" data-menu>
-                <button class="btn--mobile"
-                    type="button"><span class="btn__text">
-                    Buy now</span>
-                   <svg class="btn__icon"  width="6px" height="8px">
-                       <use href="./images/symbol-defs.svg#btn-arrow">
-                       </use>
-                   </svg>
-                <!-- </span> -->
-                </button>
-                <ul>
-                    <li class="mobile__item">
-                        <a href="./index.html" class="link mobile__link ">Home</a>
+        <section class="header__section">
+            <div class="container header__container">
+                <a class="logo"
+                href="">
+                    <img src="./images/logo_sm.png" alt="Company logo" width="199px" height="50px">
+                </picture></a>
+                
+                <ul class="nav__list">
+                    <li class="nav__item"> 
+                        <a class="link nav__link" href="./index.html">Home</a>
                     </li>
-                    <li class="mobile__item">
-                        <a href="#about" class="link mobile__link ">About us</a>
-                    </li>
-                    <li class="mobile__item">
-                        <a href="#advantages" class="link mobile__link ">How it’s made?</a>
-                    </li>
-                    <li class="mobile__item">
-                        <a href="#products" class="link mobile__link ">Our products</a>
-                    </li>
-                    <li class="mobile__item">
-                        <a href="#contacts" class="link mobile__link ">Contact</a>
-                    </li>
-                    
+                    <li class="nav__item"><a class="link nav__link" href="#about">About us</a></li>
+                    <li class="nav__item"><a class="link nav__link" href="#advantages">How it’s made?</a></li>
+                    <li class="nav__item"><a class="link nav__link" href="#products">Our products</a></li>
+                    <li class="nav__item"><a class="link nav__link" href="#contacts">Contact</a></li>
                 </ul>
-
+                <button class="menu__btn" data-menu-button type="button" aria-expanded="false">
+                    <svg class="menu__icon" width="20px" height="20px">
+                        <use class="menu__icon--menu" href="./images/symbol-defs.svg#menu"></use>
+                        <use class="menu__icon--close"  href="./images/symbol-defs.svg#close"></use>
+                    </svg>
+                </button>
+                <div class="mobile" data-menu>
+                    <button class="btn--mobile"
+                        type="button"><span class="btn__text">
+                        Buy now</span>
+                       <svg class="btn__icon"  width="6px" height="8px">
+                           <use href="./images/symbol-defs.svg#btn-arrow">
+                           </use>
+                       </svg>
+                    <!-- </span> -->
+                    </button>
+                    <ul>
+                        <li class="mobile__item">
+                            <a href="./index.html" class="link mobile__link ">Home</a>
+                        </li>
+                        <li class="mobile__item">
+                            <a href="#about" class="link mobile__link ">About us</a>
+                        </li>
+                        <li class="mobile__item">
+                            <a href="#advantages" class="link mobile__link ">How it’s made?</a>
+                        </li>
+                        <li class="mobile__item">
+                            <a href="#products" class="link mobile__link ">Our products</a>
+                        </li>
+                        <li class="mobile__item">
+                            <a href="#contacts" class="link mobile__link ">Contact</a>
+                        </li>
+                        
+                    </ul>
+    
+                </div>
+                <button class="btn"
+                type="button"><span class="btn__text">
+                Buy now</span>
+               <svg class="btn__icon"  width="6px" height="8px">
+                   <use href="./images/symbol-defs.svg#btn-arrow">
+                   </use>
+               </svg>
+                
+                </button>
             </div>
-            <button class="btn"
-            type="button"><span class="btn__text">
-            Buy now</span>
-           <svg class="btn__icon"  width="6px" height="8px">
-               <use href="./images/symbol-defs.svg#btn-arrow">
-               </use>
-           </svg>
-            
-            </button>
-        </div>
+        </section>
+        
     </header>
 
     <main>
@@ -82,7 +85,7 @@
 
         <section class="section" id="products">
             <div class="container">
-                <h2 class="section__title">100% natural</h2>
+                <span class="section__title">100% natural</span>
                 <h1 class="section__name">products</h1>
                 <ul class="products">
                     <li class="ptoducts__item ">
@@ -123,7 +126,7 @@
 
 <!-- Contacts -->
 
-    <section class="section__contacts" id="contacts">
+    <section class="section section__contacts" id="contacts">
         <div class="container">
             <h2 id="contacts" hidden> Contacts </h2>
             <ul class="contacts__list">
@@ -259,6 +262,19 @@
                     </button>
                 </li>
             </ul>
+        </div>
+    </section>
+
+    <!-- Section About -->
+    <section  class="section section__about"  id="about" >
+        <div class="container">
+            <span class="section__title">tradition and love</span>
+                <h1 class="section__name">how it’s made?</h1>
+            <div>
+                <picture>
+                    <source srcset="../../">
+                </picture>
+            </div>
         </div>
     </section>
     </main>

@@ -42,12 +42,22 @@ img {
   height: auto;
 }
 
-.section {
-  padding-top: 77px;
-  padding-bottom: 40px;
+@media screen and (max-width: 1279px) {
+  .section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .section__title {
+  display: block;
   font-family: Titan One;
   font-style: normal;
   font-weight: 400;
@@ -162,7 +172,7 @@ img {
 
 .btn__icon {
   display: block;
-  fill: #D41443;
+  fill: transparent;
   margin-left: 15px;
 }
 
@@ -596,6 +606,17 @@ img {
   margin-bottom: 40px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.section__about {
+  background-color: #FFF5F6;
+}
+
+.about__icon {
+  display: block;
+  width: 280px;
+  height: 279px;
+  background-image: url(../../images/cow_sm.png);
 }
 
 .section__contacts {
