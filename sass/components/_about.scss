@@ -10,8 +10,10 @@
 
 .about__info{
     @media screen and(max-width:767px) {
-        background-image:url(../../images/sectionbg_sm.png)
-        
+        background-image:url(../../images/sectionbg_sm.png);
+        background-repeat:no-repeat;
+
+        margin-bottom: 20px;
     }
 }
 
@@ -38,3 +40,24 @@
 .about__desc--one{
     margin-bottom: 15px;
 }
+
+.about__btn{
+    display: flex;
+    // display: block;
+    width: 176px;
+    height: 44px;
+    background-color: #ffffff;
+    color: rgba(212, 20, 67, 1);
+    border: transparent;
+    border-radius: 22px;
+
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    
+    align-items: center;
+    text-align: center;
+    padding-left: 37px;
+    padding-right: 37px;
+    }

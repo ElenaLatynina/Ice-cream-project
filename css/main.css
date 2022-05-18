@@ -106,6 +106,10 @@ img {
   }
 }
 
+.container__mobile {
+  padding-right: 80px;
+}
+
 .header__container {
   padding-top: 8px;
   display: flex;
@@ -172,7 +176,7 @@ img {
 
 .btn__icon {
   display: block;
-  fill: transparent;
+  fill: #D41443;
   margin-left: 15px;
 }
 
@@ -620,6 +624,8 @@ img {
 @media screen and (max-width: 767px) {
   .about__info {
     background-image: url(../../images/sectionbg_sm.png);
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
   }
 }
 
@@ -644,6 +650,24 @@ img {
 
 .about__desc--one {
   margin-bottom: 15px;
+}
+
+.about__btn {
+  display: flex;
+  width: 176px;
+  height: 44px;
+  background-color: #ffffff;
+  color: #d41443;
+  border: transparent;
+  border-radius: 22px;
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  text-align: center;
+  padding-left: 37px;
+  padding-right: 37px;
 }
 
 .section__contacts {
