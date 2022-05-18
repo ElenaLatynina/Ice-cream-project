@@ -1,4 +1,40 @@
 .section__about{
     background-color: #FFF5F6;
 }
+.about__wrapper{
+    display: block;
+    align-items: center;
+}
 
+
+
+.about__info{
+    @media screen and(max-width:767px) {
+        background-image:url(../../images/sectionbg_sm.png)
+        
+    }
+}
+
+.about__txt{
+    font-family:DM Sans;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.62;
+    color: #000000;
+
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.about__desc{
+    font-family:DM Sans;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.62;
+    color:#907E82;
+    text-align: left;
+}
+
+.about__desc--one{
+    margin-bottom: 15px;
+}

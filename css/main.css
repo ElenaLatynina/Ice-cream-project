@@ -612,11 +612,38 @@ img {
   background-color: #FFF5F6;
 }
 
-.about__icon {
+.about__wrapper {
   display: block;
-  width: 280px;
-  height: 279px;
-  background-image: url(../../images/cow_sm.png);
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .about__info {
+    background-image: url(../../images/sectionbg_sm.png);
+  }
+}
+
+.about__txt {
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.62;
+  color: #000000;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.about__desc {
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.62;
+  color: #907E82;
+  text-align: left;
+}
+
+.about__desc--one {
+  margin-bottom: 15px;
 }
 
 .section__contacts {
