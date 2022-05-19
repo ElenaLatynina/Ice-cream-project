@@ -1,5 +1,9 @@
 .section__about{
     background-color: #FFF5F6;
+    @media screen and(min-width:1280px) {
+        background-image:url(../../images/sectionbg_lg.png);
+        background-repeat:no-repeat;
+    }
 }
 
 .about__blocks{
@@ -12,6 +16,7 @@
 
     @media screen and(min-width:1280px) {
         margin-top: 79px;
+        
     }
 }
 
@@ -42,7 +47,7 @@
    
   
     @media screen and(min-width:1280px) {
-        width: 501px;
+        width: 463px;
         height: 501px;
         padding-top: 72px;
         padding-bottom: 99px;
@@ -60,7 +65,7 @@
 
         @media screen and(min-width:1280px){margin-bottom: 40px;}
 }
-
+}
 .about__txt{
     font-family:DM Sans;
     font-weight: 500;
@@ -102,13 +107,7 @@
     padding-right: 37px;
 
     margin-top: 20px;
+   
+    @media screen and(min-width:768px){margin-top:  40px;}
 }
 
-
-    // @media screen and(max-width:767px) {
-    //    margin-top:20px;
-    // }
-    @media screen and(min-width:768px) {
-       margin-top: 40px;}}
-    
-    

@@ -616,6 +616,13 @@ img {
   background-color: #FFF5F6;
 }
 
+@media screen and (min-width: 1280px) {
+  .section__about {
+    background-image: url(../../images/sectionbg_lg.png);
+    background-repeat: no-repeat;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .about__blocks {
     display: flex;
@@ -667,7 +674,7 @@ img {
 
 @media screen and (min-width: 1280px) {
   .about__block {
-    width: 501px;
+    width: 463px;
     height: 501px;
     padding-top: 72px;
     padding-bottom: 99px;
@@ -688,7 +695,7 @@ img {
   }
 }
 
-.about__info .about__txt {
+.about__txt {
   font-family: DM Sans;
   font-weight: 500;
   font-size: 12px;
@@ -698,7 +705,7 @@ img {
   text-align: left;
 }
 
-.about__info .about__desc {
+.about__desc {
   font-family: DM Sans;
   font-weight: 500;
   font-size: 12px;
@@ -707,7 +714,7 @@ img {
   text-align: left;
 }
 
-.about__info .about__btn {
+.about__btn {
   display: block;
   display: flex;
   width: 176px;
@@ -728,7 +735,7 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .about__info {
+  .about__btn {
     margin-top: 40px;
   }
 }
