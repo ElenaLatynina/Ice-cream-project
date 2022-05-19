@@ -705,6 +705,19 @@ img {
   text-align: left;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .about__txt {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about__txt {
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+}
+
 .about__desc {
   font-family: DM Sans;
   font-weight: 500;
@@ -712,6 +725,18 @@ img {
   line-height: 1.62;
   color: #907E82;
   text-align: left;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .about__desc {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about__desc {
+    font-size: 16px;
+  }
 }
 
 .about__btn {
