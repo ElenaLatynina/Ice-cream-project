@@ -93,13 +93,7 @@
     text-transform: uppercase;
     color: #D41443;
 
-    @media screen and (min-width:768px) and (max-width:1279px) {
-        font-size: 48px;
-        
-      }
     
-      @media screen and(min-width:1280px) {
-        font-size: 58px;}
 }
 
 .section__name--footer{
@@ -112,4 +106,12 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #D41443;
+
+    @media screen and (min-width:768px) and (max-width:1279px) {
+        font-size: 48px;
+        
+      }
+    
+      @media screen and(min-width:1280px) {
+        font-size: 58px;}
 }

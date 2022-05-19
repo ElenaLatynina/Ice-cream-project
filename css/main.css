@@ -105,18 +105,6 @@ img {
   color: #D41443;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
-  .section__name {
-    font-size: 48px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .section__name {
-    font-size: 58px;
-  }
-}
-
 .section__name--footer {
   font-family: Titan One;
   font-style: normal;
@@ -127,6 +115,18 @@ img {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #D41443;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .section__name--footer {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section__name--footer {
+    font-size: 58px;
+  }
 }
 
 .container {
@@ -189,7 +189,7 @@ img {
   .footer__container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
   }
 }
 
@@ -992,7 +992,7 @@ img {
 
 @media screen and (min-width: 1280px) {
   .footer__name {
-    width: 340px;
+    width: 474px;
   }
 }
 
