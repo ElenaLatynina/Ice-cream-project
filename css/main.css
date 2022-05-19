@@ -895,7 +895,22 @@ img {
   margin-bottom: 8px;
 }
 
-.footer__section {
-  background-color: #FFF5F6;
+.social-net {
+  display: flex;
+  justify-content: center;
+}
+
+.social-net__link {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #FFA5BA;
+}
+
+.social-net__icon {
+  fill: white;
 }
 /*# sourceMappingURL=main.css.map */
