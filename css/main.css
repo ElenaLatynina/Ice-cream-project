@@ -616,9 +616,62 @@ img {
   background-color: #FFF5F6;
 }
 
-.about__wrapper {
-  display: block;
-  align-items: center;
+@media screen and (min-width: 768px) {
+  .about__blocks {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .about__blocks {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about__blocks {
+    margin-top: 79px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about__wrapper {
+    display: block;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .about__wrapper {
+    display: block;
+    width: 336px;
+    height: 335px;
+    margin-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about__wrapper {
+    width: 501px;
+    height: 501px;
+    margin-right: 139px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .about__block {
+    width: 336px;
+    height: 335px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about__block {
+    width: 501px;
+    height: 501px;
+    padding-top: 72px;
+    padding-bottom: 99px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -629,7 +682,13 @@ img {
   }
 }
 
-.about__txt {
+@media screen and (max-width: 767px) and (min-width: 1280px) {
+  .about__info {
+    margin-bottom: 40px;
+  }
+}
+
+.about__info .about__txt {
   font-family: DM Sans;
   font-weight: 500;
   font-size: 12px;
@@ -639,7 +698,7 @@ img {
   text-align: left;
 }
 
-.about__desc {
+.about__info .about__desc {
   font-family: DM Sans;
   font-weight: 500;
   font-size: 12px;
@@ -648,11 +707,8 @@ img {
   text-align: left;
 }
 
-.about__desc--one {
-  margin-bottom: 15px;
-}
-
-.about__btn {
+.about__info .about__btn {
+  display: block;
   display: flex;
   width: 176px;
   height: 44px;
@@ -668,6 +724,13 @@ img {
   text-align: center;
   padding-left: 37px;
   padding-right: 37px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .about__info {
+    margin-top: 40px;
+  }
 }
 
 .section__contacts {
