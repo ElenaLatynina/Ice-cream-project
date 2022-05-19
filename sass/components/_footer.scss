@@ -5,11 +5,19 @@
 
 .footer__name{
     @media screen and(max-width:767px) {   display: block;
-        // text-align: column;
         width: 234px;
         height: 134px;
-      
+        margin-bottom: 40px;
     }
+    @media screen and (min-width:768px) and (max-width:1279px) {
+        width: 768px;
+        
+      }
+    
+      @media screen and(min-width:1280px) {
+        width: 340px;
+        
+        }
 }
 
 .footer__socials{
@@ -19,6 +27,7 @@
 .social-net{
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 40px;
 }
 
 .social-net__link{
