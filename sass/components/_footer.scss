@@ -1,6 +1,18 @@
-.footer__section{
-    // background-color:  #FFF5F6;
+.footer{
+    background-color:#FFF5F6;
+    padding-top: 48px;
 }
+
+.footer__name{
+    @media screen and(max-width:767px) {   display: block
+        // text-align: column;
+        width: 234px;
+        height: 134px;
+        // text-align: left;
+    }
+}
+
+
 
 
 .social-net{
@@ -15,10 +27,16 @@
     align-items:center;
     justify-content: center;
     border-radius:50%;
-   
+    color: #ffffff;
     background-color: #FFA5BA;
+    border: 1px solid tomato;
     
 }
+
+.social-net__item:not(:last-child){
+    margin-right: 28px;
+}
+
 .social-net__icon{
     fill:white; 
 }

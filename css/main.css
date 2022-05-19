@@ -895,6 +895,20 @@ img {
   margin-bottom: 8px;
 }
 
+.footer {
+  background-color: #FFF5F6;
+  padding-top: 48px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__name {
+    display: flex;
+    text-align: column;
+    width: 234px;
+    height: 134px;
+  }
+}
+
 .social-net {
   display: flex;
   justify-content: center;
@@ -907,7 +921,13 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+  color: #ffffff;
   background-color: #FFA5BA;
+  border: 1px solid tomato;
+}
+
+.social-net__item:not(:last-child) {
+  margin-right: 28px;
 }
 
 .social-net__icon {
