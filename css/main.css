@@ -894,4 +894,8 @@ img {
 .contacts__schedule__link:not(:last-child) {
   margin-bottom: 8px;
 }
+
+.footer__section {
+  background-color: #FFF5F6;
+}
 /*# sourceMappingURL=main.css.map */
