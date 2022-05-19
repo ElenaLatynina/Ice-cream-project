@@ -4,20 +4,21 @@
 }
 
 .footer__name{
-    @media screen and(max-width:767px) {   display: block
+    @media screen and(max-width:767px) {   display: block;
         // text-align: column;
         width: 234px;
         height: 134px;
-        // text-align: left;
+      
     }
 }
 
-
-
-
+.footer__socials{
+    display: block;
+    text-align: right;
+}
 .social-net{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .social-net__link{
@@ -39,4 +40,23 @@
 
 .social-net__icon{
     fill:white; 
+}
+// .footer__tel{
+    
+// }
+.footer__tel--text{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.86;
+    color: #000000;
+
+}
+
+.footer__tel--number{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.86;
+    color: #D41443;;
 }

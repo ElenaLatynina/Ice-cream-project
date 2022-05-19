@@ -68,6 +68,18 @@ img {
   color: #FFA5BA;
 }
 
+.section__title--footer {
+  display: block;
+  font-family: Titan One;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.17;
+  text-align: left;
+  text-transform: uppercase;
+  color: #FFA5BA;
+}
+
 .section__name {
   font-family: Titan One;
   font-style: normal;
@@ -75,6 +87,18 @@ img {
   font-size: 34px;
   line-height: 1.15;
   text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #D41443;
+}
+
+.section__name--footer {
+  font-family: Titan One;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.15;
+  text-align: left;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #D41443;
@@ -123,6 +147,16 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+}
+
+.footer__container {
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__container {
+    padding: 0 16px;
   }
 }
 
@@ -902,16 +936,20 @@ img {
 
 @media screen and (max-width: 767px) {
   .footer__name {
-    display: flex;
-    text-align: column;
+    display: block;
     width: 234px;
     height: 134px;
   }
 }
 
+.footer__socials {
+  display: block;
+  text-align: right;
+}
+
 .social-net {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .social-net__link {
@@ -932,5 +970,21 @@ img {
 
 .social-net__icon {
   fill: white;
+}
+
+.footer__tel--text {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.86;
+  color: #000000;
+}
+
+.footer__tel--number {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.86;
+  color: #D41443;
 }
 /*# sourceMappingURL=main.css.map */
