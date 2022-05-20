@@ -569,7 +569,7 @@ img {
 @media screen and (max-width: 767px) {
   .ptoducts__item {
     width: 280px;
-    height: 629px;
+    height: 489px;
     margin-top: 140px;
   }
 }
@@ -578,7 +578,7 @@ img {
   .ptoducts__item {
     flex-basis: calc(100%/3 - 16px);
     max-width: 224px;
-    height: 611px;
+    height: 473px;
     margin-left: 16px;
     margin-top: 154px;
   }
@@ -588,7 +588,7 @@ img {
   .ptoducts__item {
     flex-basis: calc(100%/3 - 32px);
     max-width: 394px;
-    height: 780px;
+    height: 615px;
     margin-top: 200px;
     margin-left: 32px;
   }
@@ -798,7 +798,6 @@ img {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #FFFFFF;
-  margin-bottom: 32px;
 }
 
 @media screen and (min-width: 1280px) {
