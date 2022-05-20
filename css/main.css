@@ -177,6 +177,7 @@ img {
 
 .footer__container {
   padding: 0 20px;
+  padding-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
@@ -190,6 +191,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    padding-bottom: 40px;
   }
 }
 
@@ -198,6 +200,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    padding-bottom: 60px;
   }
 }
 
@@ -257,7 +260,7 @@ img {
 
 .btn__icon--inverse {
   display: block;
-  fill: #FFFFFF;
+  fill: transparent;
   margin-left: 15px;
 }
 
@@ -1014,9 +1017,7 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  color: #ffffff;
   background-color: #FFA5BA;
-  border: 1px solid tomato;
 }
 
 .social-net__item:not(:last-child) {
@@ -1024,7 +1025,12 @@ img {
 }
 
 .social-net__icon {
-  fill: white;
+  fill: transparent;
+}
+
+.social-net__link:hover,
+.social-net__link:focus {
+  background-color: #D41443;
 }
 
 .footer__tel--text {
@@ -1056,6 +1062,7 @@ img {
   line-height: 1.86;
   letter-spacing: 0.02em;
   color: #907E82;
+  text-align: center;
 }
 
 @media screen and (max-width: 767px) {
