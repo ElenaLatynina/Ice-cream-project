@@ -607,10 +607,15 @@ img {
   width: 280px;
   height: 280px;
   background-image: url(../../images/pic1_sm.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-moz-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2 / 1), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .ptoducts__item:nth-child(1)::before {
+    display: block;
+    width: 280px;
+    height: 280px;
     background-image: url(../../images/pic1_sm@2x.png);
   }
 }
@@ -625,6 +630,8 @@ img {
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-moz-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .ptoducts__item:nth-child(1)::before {
+    width: 224px;
+    height: 224px;
     background-image: url(../../images/pic1_md@2x.png);
   }
 }
@@ -657,6 +664,8 @@ img {
   width: 280px;
   height: 280px;
   background-image: url(../../images/pic2_sm.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-moz-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2 / 1), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
@@ -707,6 +716,8 @@ img {
   width: 280px;
   height: 280px;
   background-image: url(../../images/pic3_sm.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-moz-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2 / 1), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
@@ -725,6 +736,8 @@ img {
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-moz-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .ptoducts__item:nth-child(3)::before {
+    width: 224px;
+    height: 224px;
     background-image: url(../../images/pic3_md@2x.png);
   }
 }
@@ -739,6 +752,8 @@ img {
 
 @media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-moz-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
   .ptoducts__item:nth-child(3)::before {
+    width: 394px;
+    height: 394px;
     background-image: url(../../images/pic3_lg@2x.png);
   }
 }

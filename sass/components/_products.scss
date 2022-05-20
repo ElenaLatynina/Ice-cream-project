@@ -53,16 +53,19 @@
     top:0;
     left:50%;
     transform: translate(-50%, -60%);
-
     // margin-bottom: 32px;
-
     content: "";
     display: block;
     width: 280px;
     height: 280px;
     background-image:url(../../images/pic1_sm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
     @include mq(retina){
+        display: block;
+        width: 280px;
+        height: 280px;
         background-image: url(../../images/pic1_sm@2x.png);
     }
 
@@ -72,6 +75,8 @@
         background-image:url(../../images/pic1_md.png);
 
         @include mq(retina){
+            width: 224px;
+            height: 224px;
             background-image: url(../../images/pic1_md@2x.png);
         }
     }
@@ -103,6 +108,8 @@
     width: 280px;
     height: 280px;
     background-image:url(../../images/pic2_sm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
     @include mq(retina){
         background-image: url(../../images/pic2_sm@2x.png);
@@ -146,6 +153,8 @@
     width: 280px;
     height: 280px;
     background-image:url(../../images/pic3_sm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
     @include mq(retina){
         background-image: url(../../images/pic3_sm@2x.png);
@@ -157,6 +166,8 @@
         background-image:url(../../images/pic3_md.png);
 
         @include mq(retina){
+            width: 224px;
+            height: 224px;
             background-image: url(../../images/pic3_md@2x.png);
         }
     }
@@ -167,6 +178,8 @@
         background-image:url(../../images/pic3_lg.png);
 
         @include mq(retina){
+            width: 394px;
+            height: 394px;
             background-image: url(../../images/pic3_lg@2x.png);
         }
     }
