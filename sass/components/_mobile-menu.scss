@@ -17,7 +17,7 @@
     cursor: pointer;
 
   @media screen and(min-width:768px) and (max-width:1279px) {
-      .menu__btn{position: absolute;}
+    .menu__btn{position: absolute;}
    
       
   }
@@ -82,6 +82,7 @@
     }
     @media screen and (min-width:768px) and (max-width:1279px){
         min-width: 254px;
+        max-width: 35%;
         height: 100vh;
         
     }

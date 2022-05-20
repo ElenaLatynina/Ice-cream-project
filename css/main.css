@@ -219,6 +219,7 @@ img {
 @media screen and (max-width: 767px) {
   .btn {
     width: 161px;
+    display: none;
   }
 }
 
@@ -504,6 +505,7 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .mobile {
     min-width: 254px;
+    max-width: 35%;
     height: 100vh;
   }
 }
@@ -1053,22 +1055,25 @@ img {
   padding-top: 8px;
   padding-bottom: 8px;
   border-top: 1px solid #E1E1E1;
+  text-align: center;
 }
 
 .footer__rights__txt {
+  display: block;
   font-family: DM Sans;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.86;
   letter-spacing: 0.02em;
-  color: #907E82;
   text-align: center;
+  color: #907E82;
 }
 
 @media screen and (max-width: 767px) {
   .footer__rights__txt {
-    display: block;
-    width: 280px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 /*# sourceMappingURL=main.css.map */

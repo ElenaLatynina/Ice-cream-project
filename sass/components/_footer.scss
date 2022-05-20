@@ -76,21 +76,23 @@
     padding-top: 8px;
     padding-bottom: 8px;
     border-top: 1px solid #E1E1E1;
+    text-align: center;
 }
 
 .footer__rights__txt{
+    display: block;
     font-family: DM Sans;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.86;
     letter-spacing: 0.02em;
-
-    color: #907E82;
     text-align: center;
+    color: #907E82;
+    
 
     @media screen and(max-width:767px) {
-        display: block;
-        width: 280px;
-        
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
