@@ -599,14 +599,48 @@ img {
 
 .ptoducts__item:nth-child(1)::before {
   position: absolute;
-  top: -5%;
+  top: 0;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -60%);
   content: "";
   display: block;
   width: 280px;
   height: 280px;
   background-image: url(../../images/pic1_sm.png);
+}
+
+@media screen and (min-device-pixel-ratio: 2), screen and (-moz-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2 / 1), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  .ptoducts__item:nth-child(1)::before {
+    background-image: url(../../images/pic1_sm@2x.png);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ptoducts__item:nth-child(1)::before {
+    width: 224px;
+    height: 224px;
+    background-image: url(../../images/pic1_md.png);
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-moz-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .ptoducts__item:nth-child(1)::before {
+    background-image: url(../../images/pic1_md@2x.png);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .ptoducts__item:nth-child(1)::before {
+    width: 394px;
+    height: 394px;
+    background-image: url(../../images/pic1_lg.png);
+  }
+}
+
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-moz-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+  .ptoducts__item:nth-child(1)::before {
+    background-image: url(../../images/pic1_lg@2x.png);
+  }
 }
 
 .ptoducts__item:nth-child(2) {
@@ -615,7 +649,7 @@ img {
 
 .ptoducts__item:nth-child(2)::before {
   position: absolute;
-  top: 0;
+  top: -5%;
   left: 50%;
   transform: translate(-50%, -50%);
   content: "";
@@ -625,13 +659,47 @@ img {
   background-image: url(../../images/pic2_sm.png);
 }
 
+@media screen and (min-device-pixel-ratio: 2), screen and (-moz-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2 / 1), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  .ptoducts__item:nth-child(2)::before {
+    background-image: url(../../images/pic2_sm@2x.png);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ptoducts__item:nth-child(2)::before {
+    width: 224px;
+    height: 224px;
+    background-image: url(../../images/pic2_md.png);
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-moz-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .ptoducts__item:nth-child(2)::before {
+    background-image: url(../../images/pic2_md@2x.png);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .ptoducts__item:nth-child(2)::before {
+    width: 394px;
+    height: 394px;
+    background-image: url(../../images/pic2_lg.png);
+  }
+}
+
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-moz-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+  .ptoducts__item:nth-child(2)::before {
+    background-image: url(../../images/pic2_lg@2x.png);
+  }
+}
+
 .ptoducts__item:nth-child(3) {
   background-color: #C2E297;
 }
 
 .ptoducts__item:nth-child(3)::before {
   position: absolute;
-  top: 0;
+  top: -5%;
   left: 50%;
   transform: translate(-50%, -50%);
   content: "";
@@ -639,6 +707,40 @@ img {
   width: 280px;
   height: 280px;
   background-image: url(../../images/pic3_sm.png);
+}
+
+@media screen and (min-device-pixel-ratio: 2), screen and (-moz-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2 / 1), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  .ptoducts__item:nth-child(3)::before {
+    background-image: url(../../images/pic3_sm@2x.png);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ptoducts__item:nth-child(3)::before {
+    width: 224px;
+    height: 224px;
+    background-image: url(../../images/pic3_md.png);
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-moz-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .ptoducts__item:nth-child(3)::before {
+    background-image: url(../../images/pic3_md@2x.png);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .ptoducts__item:nth-child(3)::before {
+    width: 394px;
+    height: 394px;
+    background-image: url(../../images/pic3_lg.png);
+  }
+}
+
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-moz-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+  .ptoducts__item:nth-child(3)::before {
+    background-image: url(../../images/pic3_lg@2x.png);
+  }
 }
 
 .products__name {
