@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0px;
 }
 
-ul {
+UL {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -255,7 +255,7 @@ img {
 
 .btn__icon {
   display: block;
-  fill: #D41443;
+  color: #D41443;
   margin-left: 15px;
 }
 
@@ -355,7 +355,7 @@ img {
 .contacts__btn--inverse {
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   height: 44px;
   padding: 14px;
   background-color: #D41342;

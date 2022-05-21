@@ -46,7 +46,7 @@
 
 .btn__icon{
     display: block;
-    fill:#D41443;
+    color:#D41443;
     margin-left: 15px;
 }
 
@@ -138,13 +138,13 @@
 .contacts__btn--inverse{
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     height: 44px;
     padding: 14px;
     
 
     background-color:#D41342;
-    color: #FFFFFF;
+    color:#FFFFFF;
     border-radius: 22px;
     border: transparent;
 
