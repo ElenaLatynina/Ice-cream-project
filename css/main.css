@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0px;
 }
 
-UL {
+ul, li {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -1216,16 +1216,20 @@ img {
 }
 
 .section__gallery {
+  background-image: linear-gradient(180deg, #FFF5F6 50%, #fff 50%);
+}
+
+.section__gallery {
   width: 364px;
   height: 122px;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(../../images/pic5_sm.jpg), linear-gradient(180deg, #FFF5F6 50%, #fff 50%);
+  background-image: url(../../images/pic5_sm.jpg);
 }
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-moz-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2 / 1), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .section__gallery {
-    background-image: url(../../images/pic5_sm@2x.jpg), linear-gradient(180deg, #FFF5F6 50%, #fff 50%);
+    background-image: url(../../images/pic5_sm@2x.jpg);
   }
 }
 
@@ -1233,13 +1237,13 @@ img {
   .section__gallery {
     width: 786px;
     height: 284px;
-    background-image: url(../../images/pic5_md.jpg), linear-gradient(180deg, #FFF5F6 50%, #fff 50%);
+    background-image: url(../../images/pic5_md.jpg);
   }
 }
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-moz-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .section__gallery {
-    background-image: url(../../images/pic5_md@2x.jpg), linear-gradient(180deg, #FFF5F6 50%, #fff 50%);
+    background-image: url(../../images/pic5_md@2x.jpg);
   }
 }
 
@@ -1247,13 +1251,13 @@ img {
   .section__gallery {
     width: 1280px;
     height: 430px;
-    background-image: url(../../images/pic5_lg.jpg), linear-gradient(180deg, #FFF5F6 50%, #fff 50%);
+    background-image: url(../../images/pic5_lg.jpg);
   }
 }
 
 @media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-moz-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
   .section__gallery {
-    background-image: url(../../images/pic5_lg@2x.jpg), linear-gradient(180deg, #FFF5F6 50%, #fff 50%);
+    background-image: url(../../images/pic5_lg@2x.jpg);
   }
 }
 
