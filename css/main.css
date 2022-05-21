@@ -611,6 +611,8 @@ img {
   .products__thumb {
     padding-top: 144px;
     padding-bottom: 40px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
 

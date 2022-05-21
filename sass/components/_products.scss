@@ -56,6 +56,8 @@
     @include mq(tablet){
         padding-top: 144px;
         padding-bottom: 40px;
+        padding-left: 32px;
+        padding-right: 32px;
     }
 
     @include mq(desktop){
