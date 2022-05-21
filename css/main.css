@@ -326,11 +326,10 @@ img {
 .contacts__btn {
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   height: 44px;
   padding: 14px;
   background-color: #FFFFFF;
-  color: #D41342;
   border-radius: 22px;
   border: transparent;
 }
