@@ -28,14 +28,14 @@
     @media screen and (min-width:768px)and (max-width:1279px) {
         flex-basis: calc(100%/3 - 16px);
         max-width: 224px;
-        height: 473px;
+        height: 499px;
         margin-left: 16px;
         margin-top: 154px;
     }
 
     @media screen and (min-width:1280px){   flex-basis: calc(100%/3 - 32px);
         max-width: 394px;
-        height: 615px;
+        height: 599px;
         margin-top: 200px;
         margin-left: 32px;
 
@@ -49,6 +49,8 @@
     @include mq(mobile){
         padding-top: 160px;
         padding-bottom: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
     
     @include mq(tablet){
