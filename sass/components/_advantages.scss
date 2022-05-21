@@ -1,4 +1,4 @@
-.section__avantages{
+.section__advantages{
     background-color: #FFF5F6;
 
 }
@@ -26,12 +26,18 @@
         margin-top: -22px;
         margin-right: -22px;
     }
+
+    @include mq(desktop){
+        margin-top: -22px;
+        margin-right: -22px;
+    }
 }
-.adantages__item{
+.advantages__item{
     display: block;
 
     @include mq(mobile){
         max-width: 230px;
+        
     }
 
     @include mq(tablet){
@@ -53,6 +59,15 @@
     background-repeat: no-repeat;
     width: 50px;
     height: 50px;
+    margin-bottom: 16px;
+
+    @include mq(tablet){
+        margin-bottom: 36px;
+    }
+
+    @include mq(desktop){
+        margin-bottom: 40px;
+    }
 
 }
 
@@ -64,6 +79,15 @@
     background-repeat: no-repeat;
     width: 50px;
     height: 50px;
+    margin-bottom: 16px;
+     
+    @include mq(tablet){
+        margin-bottom: 36px;
+    }
+
+    @include mq(desktop){
+        margin-bottom: 40px;
+    }
 
 }
 
@@ -75,10 +99,19 @@
     background-repeat: no-repeat;
     width: 50px;
     height: 50px;
+    margin-bottom: 16px;
+
+    @include mq(tablet){
+        margin-bottom: 36px;
+    }
+
+    @include mq(desktop){
+        margin-bottom: 40px;
+    }
 
 }
 
-.adantages__item:not(:last-child){
+.advantages__item:not(:last-child){
     @include mq(mobile){
         margin-bottom: 32px;
     }

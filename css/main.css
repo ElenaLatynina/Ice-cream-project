@@ -1007,7 +1007,7 @@ img {
   }
 }
 
-.section__avantages {
+.section__advantages {
   background-color: #FFF5F6;
 }
 
@@ -1042,25 +1042,32 @@ img {
   }
 }
 
-.adantages__item {
+@media screen and (min-width: 1280px) {
+  .advantages__list {
+    margin-top: -22px;
+    margin-right: -22px;
+  }
+}
+
+.advantages__item {
   display: block;
 }
 
 @media screen and (min-width: 480px) {
-  .adantages__item {
+  .advantages__item {
     max-width: 230px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .adantages__item {
+  .advantages__item {
     flex-basis: calc(100%/3 - 22px);
     margin-top: 22px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .adantages__item {
+  .advantages__item {
     flex-basis: calc(100%/3 - 106px);
     margin-top: 22px;
   }
@@ -1074,6 +1081,19 @@ img {
   background-repeat: no-repeat;
   width: 50px;
   height: 50px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .advantages__item:nth-child(1)::before {
+    margin-bottom: 36px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advantages__item:nth-child(1)::before {
+    margin-bottom: 40px;
+  }
 }
 
 .advantages__item:nth-child(2)::before {
@@ -1084,6 +1104,19 @@ img {
   background-repeat: no-repeat;
   width: 50px;
   height: 50px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .advantages__item:nth-child(2)::before {
+    margin-bottom: 36px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advantages__item:nth-child(2)::before {
+    margin-bottom: 40px;
+  }
 }
 
 .advantages__item:nth-child(3)::before {
@@ -1094,22 +1127,35 @@ img {
   background-repeat: no-repeat;
   width: 50px;
   height: 50px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .advantages__item:nth-child(3)::before {
+    margin-bottom: 36px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advantages__item:nth-child(3)::before {
+    margin-bottom: 40px;
+  }
 }
 
 @media screen and (min-width: 480px) {
-  .adantages__item:not(:last-child) {
+  .advantages__item:not(:last-child) {
     margin-bottom: 32px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .adantages__item:not(:last-child) {
+  .advantages__item:not(:last-child) {
     margin-right: 22px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .adantages__item:not(:last-child) {
+  .advantages__item:not(:last-child) {
     margin-right: 142px;
   }
 }
