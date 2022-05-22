@@ -1266,23 +1266,69 @@ img {
   }
 }
 
+.review__photo {
+  display: block;
+  width: 85px;
+  height: 85px;
+  border-radius: 44px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .review__photo {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .review__photo {
+    margin-bottom: 16px;
+  }
+}
+
 .review__text {
   font-family: DM Sans;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.86;
   text-align: center;
   letter-spacing: 0.04em;
   color: #000000;
 }
 
+@media screen and (min-width: 768px) {
+  .review__text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .review__text {
+    font-size: 16px;
+  }
+}
+
 .review__name {
   font-family: DM Sans;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 1.86;
   text-align: center;
   color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .review__name {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .review__name {
+    font-size: 20px;
+  }
 }
 
 .section__contacts {
