@@ -1266,6 +1266,18 @@ img {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .container__reviews {
+    padding: 0 74px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container__reviews {
+    padding: 0 123px;
+  }
+}
+
 .review__photo {
   display: block;
   width: 85px;
@@ -1288,7 +1300,29 @@ img {
   }
 }
 
+.review__text__wrapper {
+  display: inline-block;
+  padding: 43px 58px 26px 55px;
+  background-color: #fafafa;
+}
+
+@media screen and (min-width: 768px) {
+  .review__text__wrapper {
+    width: 620px;
+    padding: 37px 55px 44px 51px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .review__text__wrapper {
+    width: 1034px;
+    padding: 47px 139px 31px 142px;
+  }
+}
+
 .review__text {
+  position: relative;
+  display: inline-block;
   font-family: DM Sans;
   font-weight: 500;
   font-size: 12px;
@@ -1296,6 +1330,7 @@ img {
   text-align: center;
   letter-spacing: 0.04em;
   color: #000000;
+  background-image: repeating-linear-gradient(0deg, #fafafa, #e1e1e1 1px, transparent 0, transparent 31px);
 }
 
 @media screen and (min-width: 768px) {
@@ -1311,6 +1346,9 @@ img {
 }
 
 .review__text::before {
+  position: absolute;
+  top: -15px;
+  left: -36px;
   content: "";
   background-image: url(../../icons/paws.png);
   display: block;
@@ -1318,19 +1356,6 @@ img {
   height: 40px;
   background-repeat: no-repeat;
   background-size: contain;
-}
-
-.review__text::after {
-  content: "";
-  background-image: url(../../icons/redDots.png);
-  display: block;
-  width: 32px;
-  height: 4px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 16px;
 }
 
 .review__name {
@@ -1352,6 +1377,27 @@ img {
   .review__name {
     font-size: 20px;
   }
+}
+
+.review__name::before {
+  content: "";
+  background-image: url(../../icons/redDots.png);
+  display: block;
+  width: 32px;
+  height: 4px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 16px auto;
+}
+
+@media screen and (min-width: 768px) {
+  .review__name::before {
+    margin: 36px auto 16px auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  margin: 16px auto;
 }
 
 .section__contacts {
