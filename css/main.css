@@ -1266,6 +1266,10 @@ img {
   }
 }
 
+.review {
+  position: relative;
+}
+
 @media screen and (min-width: 768px) {
   .container__reviews {
     padding: 0 74px;
@@ -1398,6 +1402,19 @@ img {
 
 @media screen and (min-width: 1280px) {
   margin: 16px auto;
+}
+
+.btn__next {
+  position: absolute;
+  top: -50%;
+  z-index: 10;
+  display: block;
+}
+
+.btn__prev {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
 }
 
 .section__contacts {
