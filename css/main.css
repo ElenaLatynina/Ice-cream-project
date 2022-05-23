@@ -1266,6 +1266,28 @@ img {
   }
 }
 
+.slick-slider {
+  outline: 1px solid tomato;
+  position: relative;
+}
+
+.slick-slider .slick-arrow {
+  position: absolute;
+  z-index: 10;
+}
+
+.slick-slider.slick-arrow.slick-prev {
+  position: absolute;
+  left: 0;
+  top: 15%;
+}
+
+.slick-slider.slick-arrow.slick-next {
+  position: absolute;
+  right: 0;
+  top: 15%;
+}
+
 .review {
   position: relative;
 }
@@ -1404,11 +1426,10 @@ img {
   margin: 16px auto;
 }
 
-.btn__next {
+.slick {
   position: absolute;
   top: -50%;
   z-index: 10;
-  display: block;
 }
 
 .btn__prev {
