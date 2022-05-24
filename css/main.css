@@ -1274,16 +1274,31 @@ img {
 .slick-slider .slick-arrow {
   position: absolute;
   z-index: 10;
+  top: 50%;
+  font-size: 0;
 }
 
 .slick-prev {
-  left: 0;
-  top: 15%;
+  left: -55px;
+  background-image: url(../../icons/btn-arrow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 50px;
+  background-color: transparent;
+  border: transparent;
+  transform: rotate(180deg);
 }
 
 .slick-next {
-  right: 0;
-  top: 15%;
+  right: -55px;
+  background-image: url(../../icons/btn-arrow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 50px;
+  background-color: transparent;
+  border: transparent;
 }
 
 .review {
