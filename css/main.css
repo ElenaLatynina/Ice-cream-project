@@ -1276,12 +1276,12 @@ img {
   z-index: 10;
 }
 
-.slick-arrow .slick-prev {
+.slick-prev {
   left: 0;
   top: 15%;
 }
 
-.slick-slider.slick-arrow.slick-next {
+.slick-next {
   right: 0;
   top: 15%;
 }

@@ -7,17 +7,22 @@
 .slick-slider .slick-arrow{
     position: absolute;
     z-index: 10;
+    top:45%;
 
 
 }
-.slick-arrow .slick-prev{
-    left: 0;
-    top:15%;
+.slick-prev{
+    left: -45px;
+    background-image: 
+   
    
 }
 
-.slick-slider.slick-arrow.slick-next{
-    right: 0;
-    top:15%;
+.slick-next{
+    right: -45px;
+    background-image:url(../../icons/arrow-right.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
    
 }
