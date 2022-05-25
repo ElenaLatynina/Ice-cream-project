@@ -56,14 +56,14 @@
     margin-right: 18px;
 }
 
-.slick-dots li.slick-active{
-    position: absolute;
+.slick-dots li.slick-active button{
+    // position: absolute;
     background-image: url(../../icons/house.png);
     background-repeat: no-repeat;
     background-size: contain;
-    z-index: 3;
-
-   
-    // background-color: #D31342;
+    // z-index: 3;
+    background-color: transparent;
+    width: 12px;
+    height: 12px;
 
 }
