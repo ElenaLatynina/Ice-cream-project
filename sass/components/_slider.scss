@@ -40,3 +40,17 @@
     
    
 }
+
+.slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slick-dots>button{
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius:50%;
+}
