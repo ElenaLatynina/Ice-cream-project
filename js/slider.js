@@ -4,6 +4,7 @@ $('.reviews__list').slick(
     // prevArrow:".slick-prev",
     autoplay:true,
     aotoplaySpeed:300,
+    adaptiveHeight:true,
 
 }
 );
