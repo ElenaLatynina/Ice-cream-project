@@ -1,14 +1,11 @@
 .slick-slider{
     position: relative;
 }
-
-
 .slick-slider .slick-arrow{
     position: absolute;
     z-index: 10;
     top:50%;
     font-size: 0;
-
 
 }
 .slick-prev{
@@ -22,8 +19,6 @@
     border: transparent;
     transform: rotate(180deg);
    
-    
-   
 }
 
 .slick-next{
@@ -36,17 +31,17 @@
     background-color: transparent;
     border: transparent;
    
-    
-   
 }
 
 .slick-dots{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 32px;
 }
 
 .slick-dots li button{
+    display: block;
     font-size: 0;
     width: 12px;
     height: 12px;
@@ -57,11 +52,9 @@
 }
 
 .slick-dots li.slick-active button{
-    // position: absolute;
     background-image: url(../../icons/house.png);
     background-repeat: no-repeat;
     background-size: contain;
-    // z-index: 3;
     background-color: transparent;
     width: 12px;
     height: 12px;
