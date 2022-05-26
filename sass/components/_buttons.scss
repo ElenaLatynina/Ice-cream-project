@@ -25,7 +25,16 @@
     }
 }
 
+.btn::after{
+    content: "";
+    width: 8px;
+    height: 10px;
+    background-image: url(../../icons/btnarrow3.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 15px;                   
 
+}
 .btn__text{
     display: block;
     font-family:DM Sans;
@@ -44,13 +53,6 @@
     color: #FFFFFF;
 }
 
-.btn--mobile::after{
-    content: "";
-    width: 7px;
-    height: 10px;
-    background-image: url(../../icons/btnArrrow2.png);
-
-}
 
 .btn__icon{
     display: block;
@@ -85,88 +87,13 @@
         
     }
 }
-.contacts__buttons__list{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-
-    @media screen and(max-width:767px) {
-        flex-direction: column;
-        margin-top: 32px;
-    }
-    
-    @media screen and(min-width:768px) and(max-width:1279px) {
-        margin-top: 40px;
-        
-    }
-    
-    @media screen and(min-width:1280px)  {
-        margin-top: 60px;
-        
-    }
-
-}
-.btn__list{
-    @media screen and(max-width:767px){
-        margin-bottom: 10px;
-    }
-    
-    @media screen and(min-width:768px){
-        margin-right: 15px;
-    }
-}
-
-.contacts__btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 44px;
-    padding: 14px;
-
-    background-color:#FFFFFF;
-    // color: #D41342;
-    border-radius: 22px;
-    border: transparent;
-
-    @media screen and(max-width:767px){
-        width: 161px;
-    }
-
-    @media screen and(min-width:768px) and (max-width:1279px){
-        width: 174px;
-        
-    }
-
-    @media screen  and(min-width:1280px){
-        width: 198px;
-    }
-}
-
-
-.contacts__btn--inverse{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 44px;
-    padding: 14px;
-    
-
-    background-color:#D41342;
-    color:#FFFFFF;
-    border-radius: 22px;
-    border: transparent;
-
-    @media screen and(max-width:767px){
-        width: 161px;
-    }
-
-    @media screen and(min-width:768px) and (max-width:1279px){
-        width: 174px;
-        
-    }
-
-    @media screen  and(min-width:1280px){
-        width: 198px;
-    }
+.btn--mobile::after{
+    content: "";
+    width: 8px;
+    height: 10px;
+    background-image: url(../../icons/btnarrow3.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 15px;
 }
 
