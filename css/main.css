@@ -258,6 +258,13 @@ img {
   color: #FFFFFF;
 }
 
+.btn--mobile::after {
+  content: "";
+  width: 7px;
+  height: 10px;
+  background-image: url(../../icons/btnArrrow2.png);
+}
+
 .btn__icon {
   display: block;
   color: #D41443;
@@ -442,6 +449,9 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .menu__btn .menu__btn {
     position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
   }
 }
 
@@ -1272,7 +1282,6 @@ img {
 
 .slick-slider .slick-arrow {
   position: absolute;
-  z-index: 10;
   top: 50%;
   font-size: 0;
 }

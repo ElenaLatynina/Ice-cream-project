@@ -44,6 +44,14 @@
     color: #FFFFFF;
 }
 
+.btn--mobile::after{
+    content: "";
+    width: 7px;
+    height: 10px;
+    background-image: url(../../icons/btnArrrow2.png);
+
+}
+
 .btn__icon{
     display: block;
     color:#D41443;
