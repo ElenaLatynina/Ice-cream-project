@@ -3,20 +3,20 @@
     @media screen and(min-width:1280px) {
         background-image:url(../../images/sectionbg_lg.png);
         background-repeat:no-repeat;
-        background-size:cover;
+        background-size:contain;
     }
 }
 
 .about__blocks{
-    // @media screen and(min-width:768px){
-    //     display:flex;
-    // }
     @media screen and(min-width:768px) and(max-width:1279px){
         display: flex;
+        align-items:flex-start;
         margin-top: 40px;
     }
 
     @media screen and(min-width:1280px) {
+        display: flex;
+        // align-items:flex-start;
         margin-top: 79px;
         
     }
@@ -26,7 +26,9 @@
     @media screen and(max-width:767px) {
         display: block;
         align-items: center;
+        margin-top: 32px;
         margin-bottom: 40px;
+        
     }
     @media screen and(min-width:768px) and(max-width:1279px){
         display: block;
@@ -39,6 +41,7 @@
         width: 501px;
         height: 501px;
         margin-right: 139px;
+       
     }
 }
 .about__block{
@@ -60,17 +63,19 @@
 
 
 .about__info{
+    display: inline-block;
+    margin-bottom: 20px;
     @media screen and(max-width:767px) {
         background-image:url(../../images/sectionbg_sm.png);
         background-repeat:no-repeat;
         background-size:contain;
 
-        padding-right: 80px;
-        margin-bottom: 20px;
+        padding-right: 80px;}
 
-        @media screen and(min-width:1280px){margin-bottom: 40px;}
+        @media screen and(min-width:1280px){margin-bottom: 40px;
+        padding-top: 72px;}
 }
-}
+
 .about__txt{
     display: block;
     font-family:DM Sans;
@@ -79,13 +84,12 @@
     line-height: 1.62;
     color: #000000;
 
-    margin-bottom: 40px;
+    margin-bottom: 26px;
     text-align: left;
 
     @media screen and(min-width:768px) and(max-width:1279px){
         font-size: 14px;
     }
-   
   
     @media screen and(min-width:1280px){
         font-size: 16px;
@@ -104,13 +108,11 @@
     @media screen and(min-width:768px) and(max-width:1279px){
         font-size: 14px;
     }
-   
   
     @media screen and(min-width:1280px){
         font-size: 16px;
         
     }
-
 }
 
 .about__desc--one{
@@ -136,9 +138,6 @@
     text-align: center;
     padding-left: 37px;
     padding-right: 37px;
-
-   
-    @media screen and(min-width:768px){margin-top:  40px;}
 }
 
 .about__btn::after{

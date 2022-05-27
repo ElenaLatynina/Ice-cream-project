@@ -60,13 +60,26 @@
     font-family: Titan One;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
     line-height: 1.17;
     text-align: center;
     text-transform: uppercase;
     color: #FFA5BA;
+    // margin-bottom: 16px;
 
-    margin-bottom: 15px;
+    @media screen and(max-width:767px) {
+        font-size: 18px;
+    }
+
+    @media screen and(min-width:768px) and(max-width:1279px) {
+        font-size: 26px;
+        
+    }
+
+    @media screen and(min-width:1280px) {
+        font-size: 30px;
+        
+    }
+    
     
 }
 
@@ -95,15 +108,28 @@
     font-family:Titan One;
     font-style: normal;
     font-weight: 400;
-    font-size: 34px;
     line-height: 1.15;
     text-align: center;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #D41443;
 
-    margin-bottom: 32px;
+    @media screen and(max-width:767px) {
+        font-size: 34px;
+        margin-bottom: 32px;
+    }
 
+    @media screen and(min-width:768px) and(max-width:1279px) {
+        font-size: 55px;
+        margin-bottom: 40px;
+        
+    }
+
+    @media screen and(min-width:1280px) {
+        font-size: 58px;
+        margin-bottom: 60px;
+        
+    }
     
 }
 
