@@ -3,7 +3,7 @@
     @media screen and(min-width:1280px) {
         background-image:url(../../images/sectionbg_lg.png);
         background-repeat:no-repeat;
-        background-size:contain;
+        background-size:cover;
     }
 }
 
@@ -22,10 +22,11 @@
     }
 }
 
-.about__wrapper{
+.about__picture{
     @media screen and(max-width:767px) {
         display: block;
         align-items: center;
+        margin-bottom: 40px;
     }
     @media screen and(min-width:768px) and(max-width:1279px){
         display: block;
@@ -62,13 +63,16 @@
     @media screen and(max-width:767px) {
         background-image:url(../../images/sectionbg_sm.png);
         background-repeat:no-repeat;
+        background-size:contain;
 
+        padding-right: 80px;
         margin-bottom: 20px;
 
         @media screen and(min-width:1280px){margin-bottom: 40px;}
 }
 }
 .about__txt{
+    display: block;
     font-family:DM Sans;
     font-weight: 500;
     font-size: 12px;
@@ -109,6 +113,10 @@
 
 }
 
+.about__desc--one{
+    display: block;
+    margin-bottom: 15px;
+}
 .about__btn{
     display: block;
     display: flex;
@@ -129,7 +137,6 @@
     padding-left: 37px;
     padding-right: 37px;
 
-    margin-top: 20px;
    
     @media screen and(min-width:768px){margin-top:  40px;}
 }

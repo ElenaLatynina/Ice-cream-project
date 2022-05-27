@@ -71,6 +71,7 @@ img {
   text-align: center;
   text-transform: uppercase;
   color: #FFA5BA;
+  margin-bottom: 15px;
 }
 
 .section__title--footer {
@@ -108,6 +109,7 @@ img {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #D41443;
+  margin-bottom: 32px;
 }
 
 .section__name--footer {
@@ -795,17 +797,13 @@ img {
   .section__about {
     background-image: url(../../images/sectionbg_lg.png);
     background-repeat: no-repeat;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .about__blocks {
-    display: flex;
+    background-size: cover;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .about__blocks {
+    display: flex;
     margin-top: 40px;
   }
 }
@@ -817,14 +815,15 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .about__wrapper {
+  .about__picture {
     display: block;
     align-items: center;
+    margin-bottom: 40px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .about__wrapper {
+  .about__picture {
     display: block;
     width: 336px;
     height: 335px;
@@ -833,7 +832,7 @@ img {
 }
 
 @media screen and (min-width: 1280px) {
-  .about__wrapper {
+  .about__picture {
     width: 501px;
     height: 501px;
     margin-right: 139px;
@@ -860,6 +859,8 @@ img {
   .about__info {
     background-image: url(../../images/sectionbg_sm.png);
     background-repeat: no-repeat;
+    background-size: contain;
+    padding-right: 80px;
     margin-bottom: 20px;
   }
 }
@@ -871,6 +872,7 @@ img {
 }
 
 .about__txt {
+  display: block;
   font-family: DM Sans;
   font-weight: 500;
   font-size: 12px;
@@ -914,6 +916,11 @@ img {
   }
 }
 
+.about__desc--one {
+  display: block;
+  margin-bottom: 15px;
+}
+
 .about__btn {
   display: block;
   display: flex;
@@ -931,7 +938,6 @@ img {
   text-align: center;
   padding-left: 37px;
   padding-right: 37px;
-  margin-top: 20px;
 }
 
 @media screen and (min-width: 768px) {
