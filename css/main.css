@@ -846,6 +846,7 @@ img {
 
 @media screen and (min-width: 1280px) {
   .section__about {
+    padding-bottom: 0;
     background-image: url(../../images/sectionbg_lg.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -871,7 +872,6 @@ img {
 @media screen and (min-width: 1280px) {
   .about__blocks {
     display: flex;
-    margin-top: 79px;
   }
 }
 
@@ -898,6 +898,7 @@ img {
     width: 501px;
     height: 501px;
     margin-right: 139px;
+    margin-bottom: 39px;
   }
 }
 
@@ -912,8 +913,6 @@ img {
   .about__block {
     width: 463px;
     height: 501px;
-    padding-top: 72px;
-    padding-bottom: 99px;
   }
 }
 
@@ -926,7 +925,7 @@ img {
 @media screen and (min-width: 1280px) {
   .about__info {
     margin-bottom: 40px;
-    padding-top: 72px;
+    margin-top: 72px;
   }
 }
 

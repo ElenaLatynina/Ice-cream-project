@@ -19,6 +19,8 @@
     }
 
     @media screen and(min-width:1280px){
+        padding-bottom: 0;
+
         background-image:url(../../images/sectionbg_lg.png);
         background-repeat:no-repeat;
         background-size:contain;
@@ -36,7 +38,6 @@
 
 }
 
-
 .about__blocks{
     @media screen and(min-width:768px) and(max-width:1279px){
         display: flex;
@@ -46,7 +47,6 @@
 
     @media screen and(min-width:1280px) {
         display: flex;
-        margin-top: 79px;
         
     }
 }
@@ -70,6 +70,7 @@
         width: 501px;
         height: 501px;
         margin-right: 139px;
+        margin-bottom: 39px;
        
     }
 }
@@ -84,12 +85,9 @@
     @media screen and(min-width:1280px) {
         width: 463px;
         height: 501px;
-        padding-top: 72px;
-        padding-bottom: 99px;
        
     }
 }
-
 
 .about__info{
     display: inline-block;
@@ -97,7 +95,7 @@
     padding-right: 80px;
 
     @media screen and(min-width:1280px){margin-bottom: 40px;
-    padding-top: 72px;}
+    margin-top: 72px;}
     }
 
 .about__txt{
