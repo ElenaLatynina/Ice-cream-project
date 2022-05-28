@@ -91,11 +91,16 @@
 
 .about__info{
     display: inline-block;
-    margin-bottom: 20px;
-    padding-right: 80px;
+
+    @media screen and (max-width:767px) {
+        margin-bottom: 20px;
+        padding-right: 80px;
+    }
 
     @media screen and(min-width:1280px){margin-bottom: 40px;
-    margin-top: 72px;}
+    margin-top: 72px;
+  
+}
     }
 
 .about__txt{

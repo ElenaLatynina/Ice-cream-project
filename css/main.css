@@ -100,7 +100,6 @@ img {
   text-align: left;
   text-transform: uppercase;
   color: #FFA5BA;
-  margin-bottom: 16px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -124,12 +123,18 @@ img {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #D41443;
+  margin-top: 16px;
 }
 
 @media screen and (max-width: 767px) {
   .section__name {
+    display: block;
+    max-width: 200px;
     font-size: 34px;
     margin-bottom: 32px;
+    margin-top: 16px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -918,8 +923,13 @@ img {
 
 .about__info {
   display: inline-block;
-  margin-bottom: 20px;
-  padding-right: 80px;
+}
+
+@media screen and (max-width: 767px) {
+  .about__info {
+    margin-bottom: 20px;
+    padding-right: 80px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
