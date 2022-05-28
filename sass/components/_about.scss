@@ -1,9 +1,19 @@
 .section__about{
     background-color: #FFF5F6;
+
+    @media screen and(max-widht:767px) {
+        background-image:url(../../images/sectionbg_lg.png);
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:-5%, 25%;
+    }
+
     @media screen and(min-width:1280px) {
         background-image:url(../../images/sectionbg_lg.png);
         background-repeat:no-repeat;
         background-size:contain;
+        background-position:-5%, 25%;
+
     }
 }
 
@@ -68,6 +78,10 @@
         background-image:url(../../images/sectionbg_sm.png);
         background-repeat:no-repeat;
         background-size:contain;
+        // background-size: 70px;
+        // background-position: 0,100%;
+        // background-position-y: 90%;
+        // width: 100%;
 
         padding-right: 80px;}
 

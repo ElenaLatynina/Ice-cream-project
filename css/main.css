@@ -828,11 +828,21 @@ img {
   background-color: #FFF5F6;
 }
 
+@media screen and (max-widht: 767px) {
+  .section__about {
+    background-image: url(../../images/sectionbg_lg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -5%, 25%;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .section__about {
     background-image: url(../../images/sectionbg_lg.png);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: -5%, 25%;
   }
 }
 
