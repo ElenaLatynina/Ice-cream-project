@@ -828,21 +828,13 @@ img {
   background-color: #FFF5F6;
 }
 
-@media screen and (max-widht: 767px) {
+@media screen and (max-width: 767px), (min-width: 1280px) {
   .section__about {
     background-image: url(../../images/sectionbg_lg.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: -5%, 25%;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .section__about {
-    background-image: url(../../images/sectionbg_lg.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: -5%, 25%;
+    background-position-x: -5%;
+    background-position-y: 85%;
   }
 }
 
@@ -906,15 +898,7 @@ img {
 .about__info {
   display: inline-block;
   margin-bottom: 20px;
-}
-
-@media screen and (max-width: 767px) {
-  .about__info {
-    background-image: url(../../images/sectionbg_sm.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-right: 80px;
-  }
+  padding-right: 80px;
 }
 
 @media screen and (min-width: 1280px) {

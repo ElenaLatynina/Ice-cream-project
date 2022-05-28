@@ -1,21 +1,15 @@
 .section__about{
     background-color: #FFF5F6;
 
-    @media screen and(max-widht:767px) {
+    @media screen and(max-width:767px) ,(min-width:1280px){
         background-image:url(../../images/sectionbg_lg.png);
         background-repeat:no-repeat;
         background-size:contain;
-        background-position:-5%, 25%;
-    }
-
-    @media screen and(min-width:1280px) {
-        background-image:url(../../images/sectionbg_lg.png);
-        background-repeat:no-repeat;
-        background-size:contain;
-        background-position:-5%, 25%;
-
+        background-position-x:-5%;
+        background-position-y: 85%;
     }
 }
+
 
 .about__blocks{
     @media screen and(min-width:768px) and(max-width:1279px){
@@ -74,20 +68,11 @@
 .about__info{
     display: inline-block;
     margin-bottom: 20px;
-    @media screen and(max-width:767px) {
-        background-image:url(../../images/sectionbg_sm.png);
-        background-repeat:no-repeat;
-        background-size:contain;
-        // background-size: 70px;
-        // background-position: 0,100%;
-        // background-position-y: 90%;
-        // width: 100%;
+    padding-right: 80px;
 
-        padding-right: 80px;}
-
-        @media screen and(min-width:1280px){margin-bottom: 40px;
-        padding-top: 72px;}
-}
+    @media screen and(min-width:1280px){margin-bottom: 40px;
+    padding-top: 72px;}
+    }
 
 .about__txt{
     display: block;
