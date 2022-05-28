@@ -828,13 +828,35 @@ img {
   background-color: #FFF5F6;
 }
 
-@media screen and (max-width: 767px), (min-width: 1280px) {
+@media screen and (max-width: 767px) {
+  .section__about {
+    background-image: url(../../images/sectionbg_sm.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: -5%;
+    background-position-y: 85%;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-moz-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-o-min-device-pixel-ratio: 2 / 1), screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
+  .section__about {
+    background-image: url(../../images/sectionbg_sm@2x.png);
+  }
+}
+
+@media screen and (min-width: 1280px) {
   .section__about {
     background-image: url(../../images/sectionbg_lg.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: -5%;
     background-position-y: 85%;
+  }
+}
+
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-moz-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+  .section__about {
+    background-image: url(../../images/sectionbg_lg@2x.png);
   }
 }
 
