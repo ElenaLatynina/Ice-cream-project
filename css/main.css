@@ -1045,12 +1045,15 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #FFF5F6;
   padding: 30px 50px;
+  background-color: #FFF5F6;
+  border-radius: 35px;
 }
 
 @media screen and (max-width: 1279px) {
   .modal {
+    max-width: 600px;
+    max-height: 600px;
     background-image: url(../../images/sectionbg_sm.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -1066,6 +1069,8 @@ img {
 
 @media screen and (min-width: 1280px) {
   .modal {
+    max-width: 800px;
+    max-height: 800px;
     background-image: url(../../images/sectionbg_lg.png);
     background-repeat: no-repeat;
     background-size: contain;
