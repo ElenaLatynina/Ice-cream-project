@@ -1034,12 +1034,12 @@ img {
   background-color: #ffa5ba;
 }
 
-.about__backdrop .is-hidden {
+.backdrop .is-hidden {
   opacity: 0;
   pointer-events: none;
 }
 
-.abbout__modal {
+.modal {
   position: absolute;
   top: 50%;
   left: 50%;

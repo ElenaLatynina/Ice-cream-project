@@ -1,81 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/main.min.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-    
-</head>
-<body>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+  </head>
+  <body>
     <header class="header">
-        <section class="header__section">
-            <div class="container header__container">
-                <a class="logo"
-                    href="">
-                    <img src="./images/logo_sm.png" alt="Company logo" width="199" height="50">
+      <section class="header__section">
+        <div class="container header__container">
+          <a class="logo" href="">
+            <img
+              src="./images/logo_sm.png"
+              alt="Company logo"
+              width="199"
+              height="50"
+            />
+          </a>
+
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="link nav__link" href="./index.html">Home</a>
+            </li>
+            <li class="nav__item">
+              <a class="link nav__link" href="#advantages">About us</a>
+            </li>
+            <li class="nav__item">
+              <a class="link nav__link" href="#about">How it’s made?</a>
+            </li>
+            <li class="nav__item">
+              <a class="link nav__link" href="#products">Our products</a>
+            </li>
+            <li class="nav__item">
+              <a class="link nav__link" href="#contacts">Contact</a>
+            </li>
+          </ul>
+          <button
+            class="menu__btn"
+            data-menu-button
+            type="button"
+            aria-expanded="false"
+          >
+            <svg class="menu__icon" width="20px" height="20px">
+              <use
+                class="menu__icon--menu"
+                href="./images/symbol-defs.svg#menu"
+              ></use>
+              <use
+                class="menu__icon--close"
+                href="./images/symbol-defs.svg#close"
+              ></use>
+            </svg>
+          </button>
+          <div class="mobile" data-menu>
+            <button class="btn--mobile" type="button">
+              <span class="btn__text">
+                Buy now
+              </span>
+            </button>
+            <ul>
+              <li class="mobile__item">
+                <a href="./index.html" class="link mobile__link">Home</a>
+              </li>
+              <li class="mobile__item">
+                <a href="#about" class="link mobile__link">About us</a>
+              </li>
+              <li class="mobile__item">
+                <a href="#advantages" class="link mobile__link">
+                  How it’s made?
                 </a>
-                
-                <ul class="nav__list">
-                    <li class="nav__item"> 
-                        <a class="link nav__link" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav__item"><a class="link nav__link" href="#advantages">About us</a></li>
-                    <li class="nav__item"><a class="link nav__link" href="#about">How it’s made?</a></li>
-                    <li class="nav__item"><a class="link nav__link" href="#products">Our products</a></li>
-                    <li class="nav__item"><a class="link nav__link" href="#contacts">Contact</a></li>
-                </ul>
-                <button class="menu__btn" data-menu-button type="button" aria-expanded="false">
-                    <svg class="menu__icon" width="20px" height="20px">
-                        <use class="menu__icon--menu" href="./images/symbol-defs.svg#menu"></use>
-                        <use class="menu__icon--close"  href="./images/symbol-defs.svg#close"></use>
-                    </svg>
-                </button>
-                <div class="mobile" data-menu>
-                    <button class="btn--mobile"
-                        type="button"><span class="btn__text">
-                        Buy now</span>
-                    </button>
-                    <ul>
-                        <li class="mobile__item">
-                            <a href="./index.html" class="link mobile__link ">Home</a>
-                        </li>
-                        <li class="mobile__item">
-                            <a href="#about" class="link mobile__link ">About us</a>
-                        </li>
-                        <li class="mobile__item">
-                            <a href="#advantages" class="link mobile__link ">How it’s made?</a>
-                        </li>
-                        <li class="mobile__item">
-                            <a href="#products" class="link mobile__link ">Our products</a>
-                        </li>
-                        <li class="mobile__item">
-                            <a href="#contacts" class="link mobile__link ">Contact</a>
-                        </li>
-                        
-                    </ul>
-    
-                </div>
-                <button class="btn"
-                type="button"><span class="btn__text">
-                Buy now</span>
-                </button>
-            </div>
-        </section>
-        
+              </li>
+              <li class="mobile__item">
+                <a href="#products" class="link mobile__link">Our products</a>
+              </li>
+              <li class="mobile__item">
+                <a href="#contacts" class="link mobile__link">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <button class="btn" type="button">
+            <span class="btn__text">
+              Buy now
+            </span>
+          </button>
+        </div>
+      </section>
     </header>
 
     <main>
-        <!-- Products section -->
+      <!-- Products section -->
 
-        <!-- <section class="section" id="products">
+      <!-- <section class="section" id="products">
             <div class="container">
                 <span class="section__title">100% natural</span>
                 <h1 class="section__name">products</h1>
@@ -116,48 +148,105 @@
 
         </section> -->
 
-        <!-- About section -->
-        <section  class="section__about"  id="about" >
-            <div class="container">
-                <span class="section__title">tradition and love</span>
-                    <h2 class="section__name">how it’s made?</h2>
-               <div class="about__blocks">
-                <div class="about__picture">
-                    <picture>
-                        <source srcset="../../images/cow_lg.png 1x, ../../images/cow_lg@2x.png 2x" media="(min-width:1280px)" type="image/png">
-                        <source srcset="../../images/cow_md.png 1x, ../../images/cow_md@2x.png 2x" media="(min-width:768px)" type="image/png">
-                        <source srcset="../../images/cow_sm.png 1x" media="(max-width:767px)" type="image/png">
-                        <img src="../project-ice-cream/images/cow_sm.png" alt="com_picture" >
-                    </picture>
-                </div>
-                <div class="about__block">
-                    <div class="about__info">
-                        <p class="about__txt">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.</p>
-                        <p class="about__desc about__desc--one">
-                            Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.
-        
-                        <p class="about__desc about__desc--second">
-                            Aliquam erat volutpat. Aenean accumsan.
-                        </p>
-                        
-                    </div>
-                    <button data-modal-open class="about__btn"    type="button">Read more
-                    </button>
-                </div>
-               </div>
+      <!-- About section -->
+      <section class="section__about" id="about">
+        <div class="container">
+          <span class="section__title">tradition and love</span>
+          <h2 class="section__name">how it’s made?</h2>
+          <div class="about__blocks">
+            <div class="about__picture">
+              <picture>
+                <source
+                  srcset="
+                    ../../images/cow_lg.png    1x,
+                    ../../images/cow_lg@2x.png 2x
+                  "
+                  media="(min-width:1280px)"
+                  type="image/png"
+                />
+                <source
+                  srcset="
+                    ../../images/cow_md.png    1x,
+                    ../../images/cow_md@2x.png 2x
+                  "
+                  media="(min-width:768px)"
+                  type="image/png"
+                />
+                <source
+                  srcset="../../images/cow_sm.png 1x"
+                  media="(max-width:767px)"
+                  type="image/png"
+                />
+                <img
+                  src="../project-ice-cream/images/cow_sm.png"
+                  alt="com_picture"
+                />
+              </picture>
             </div>
-        </section>
-        <div data-modal class="about__backdrop">
-            <div class="abbout__modal">
-                <button data-modal-close >Close</button>
-            </div>
-           
+            <div class="about__block">
+              <div class="about__info">
+                <p class="about__txt">
+                  Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam
+                  vel justo cursus, faucibus lorem eget, egestas eros. Maecenas
+                  eleifend erat at justo fringilla.
+                </p>
+                <p class="about__desc about__desc--one">
+                  Curabitur lacinia enim at ex blandit, vel pellentesque odio
+                  elementum. Mauris rhoncus orci in imperdiet placerat.
+                  Vestibulum euismod nisl suscipit ligula volutpat, a feugiat
+                  urna maximus. Cras massa nibh, tincidunt.
+                </p>
 
+                <p class="about__desc about__desc--second">
+                  Aliquam erat volutpat. Aenean accumsan.
+                </p>
+              </div>
+              <button data-modal-open class="about__btn" type="button">
+                Read more
+              </button>
+            </div>
+          </div>
         </div>
+      </section>
+      <div data-modal class="backdrop is-hidden">
+        <div class="modal" data-modal>
+          <h3>Read more</h3>
+          <!-- <form class="about__form">
+                            <b class="form__title" >Оставьте свои данные, мы вам перезвоним</b>
+                           <div class="form__field">
+                            <label class="form__label" for="name" >Имя</label>
+                            <input class="form__input" type="text" name="name" id="name">
+                            <svg class="form__icon" width="18px" height="18px">
+                                <use  href="./Images/symbol-defs.svg#person"></use>
+                            </svg>
+                            </div>
+                            <div class="form__field">
+                            <label class="form__label" for="tel" >Телефон</label>
+                            <input class="form__input" type="tel" name="tel" id="tel">
+                            <svg class="form__icon" width="13px" height="13px">
+                                <use  href="./Images/symbol-defs.svg#phone"></use>
+                            </svg>
+                            </div>
+                            <div class="form__field">
+                            <label class="form__label" for="email" >Почта</label>
+                            <input class="form__input" type="email" name="email" id="email">
+                            <svg class="form__icon" width="15px" height="12px">
+                                <use  href="./Images/symbol-defs.svg#emaile"></use>
+                            </svg>
+                            </div>
+                            <div class="form__field"> 
+                            <label class="form__label" for="comment">Комментарий</label>
+                            <textarea  class="form__comment"  name="comment" id="comment"  rows="10" placeholder="Введите текст"></textarea>
+                            <div>
+                        </div class="form__field" > -->
+
+          <button data-modal-close>Back</button>
+        </div>
+      </div>
 
       <!-- Advantage section -->
 
-        <!-- <section class="section section__advantages" id="advantages">
+      <!-- <section class="section section__advantages" id="advantages">
             <div class="container container__advantages">
                 <h2 hidden>Advantages</h2>
                 <ul class="list advantages__list">
@@ -179,17 +268,17 @@
 
         </section> -->
 
-        <!-- Gallery section -->
+      <!-- Gallery section -->
 
-        <!-- <section class="section section__gallery">
+      <!-- <section class="section section__gallery">
             <div class="container ">
                 <h2 hidden>Gallery</h2>
             </div> 
         </section> -->
 
-        <!-- Customer Reviews section -->
+      <!-- Customer Reviews section -->
 
-        <!-- <section class="section">
+      <!-- <section class="section">
             <div class="container container__reviews">
                 <h2 hidden>Customer reviews</h2>
                 <div class="reviews__list">
@@ -240,9 +329,9 @@
             </div>
         </section> -->
 
-<!-- Contacts -->
+      <!-- Contacts -->
 
-    <!-- <section class="section section__contacts" id="contacts">
+      <!-- <section class="section section__contacts" id="contacts">
         <div class="container">
             <h2  hidden> Contacts </h2>
             <ul class="contacts__list">
@@ -372,7 +461,6 @@
             </ul>
         </div>
     </section> -->
-
     </main>
 
     <!-- <footer class="footer">
@@ -422,11 +510,19 @@
         </div>
     </footer>
      -->
-    
 
-    <script src="./js/menu.js"></script> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="./js/slider.js"></script> 
-</body>
+    <script src="./js/menu.js"></script>
+    <script src="./js/modal.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./js/slider.js"></script>
+  </body>
 </html>
