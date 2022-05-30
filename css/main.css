@@ -1069,7 +1069,40 @@ img {
 }
 
 .form__field:focus {
-  color: tomato;
+  color: #d41443;
+}
+
+.form__btn {
+  display: block;
+  display: flex;
+  max-width: 176px;
+  height: 44px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  background-color: #ffffff;
+  color: #d41443;
+  border: 1px solid pink;
+  border-radius: 22px;
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  text-align: center;
+  padding-left: 47px;
+  padding-right: 47px;
+}
+
+.form__btn::before {
+  content: "";
+  width: 8px;
+  height: 10px;
+  background-image: url(../../icons/btnarrow3.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: rotate(180deg);
+  margin-right: 15px;
 }
 
 .section__advantages {
