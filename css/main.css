@@ -1113,8 +1113,8 @@ img {
   line-height: 18px;
   align-items: center;
   text-align: center;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 45px;
+  padding-right: 45px;
 }
 
 .form__btn::before {
