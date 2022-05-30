@@ -201,7 +201,7 @@
                   Aliquam erat volutpat. Aenean accumsan.
                 </p>
               </div>
-              <button data-modal-open class="about__btn" type="button">
+              <button class="about__btn" type="button" data-modal-open>
                 Read more
               </button>
             </div>
@@ -210,37 +210,26 @@
       </section>
       <div data-modal class="backdrop is-hidden">
         <div class="modal" data-modal>
-          <h3>Read more</h3>
-          <!-- <form class="about__form">
-                            <b class="form__title" >Оставьте свои данные, мы вам перезвоним</b>
-                           <div class="form__field">
-                            <label class="form__label" for="name" >Имя</label>
-                            <input class="form__input" type="text" name="name" id="name">
-                            <svg class="form__icon" width="18px" height="18px">
-                                <use  href="./Images/symbol-defs.svg#person"></use>
-                            </svg>
-                            </div>
-                            <div class="form__field">
-                            <label class="form__label" for="tel" >Телефон</label>
-                            <input class="form__input" type="tel" name="tel" id="tel">
-                            <svg class="form__icon" width="13px" height="13px">
-                                <use  href="./Images/symbol-defs.svg#phone"></use>
-                            </svg>
-                            </div>
-                            <div class="form__field">
-                            <label class="form__label" for="email" >Почта</label>
-                            <input class="form__input" type="email" name="email" id="email">
-                            <svg class="form__icon" width="15px" height="12px">
-                                <use  href="./Images/symbol-defs.svg#emaile"></use>
-                            </svg>
-                            </div>
-                            <div class="form__field"> 
-                            <label class="form__label" for="comment">Комментарий</label>
-                            <textarea  class="form__comment"  name="comment" id="comment"  rows="10" placeholder="Введите текст"></textarea>
-                            <div>
-                        </div class="form__field" > -->
-
-          <button data-modal-close>Back</button>
+          <p class="about__txt">
+            Ice cream contains nutrients that are good for your immune system.
+            There are nutrients in ice cream that can boost your immune system.
+            Ice cream is made with milk, which is full of vitamins and nutrients
+            like vitamin A, vitamin D, selenium, and zinc which are all vital
+            for a healthy immune system.
+          </p>
+          <form class="about__form">
+            <p class="section__title">
+              Leave your contact-mail and we'll send you discount coupon
+            </p>
+            <div class="form__field">
+              <label class="about__text" for="email">E-mail :</label>
+              <input class="form__input" type="email" name="email" id="email" />
+              <svg class="form__icon" width="15px" height="12px">
+                <use href=""></use>
+              </svg>
+            </div>
+          </form>
+          <button class="about__btn" data-modal-close>Back</button>
         </div>
       </div>
 
