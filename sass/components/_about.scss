@@ -87,7 +87,6 @@
         height: 335px;
     }
    
-  
     @media screen and(min-width:1280px) {
         width: 463px;
         height: 501px;
@@ -105,7 +104,6 @@
 
     @media screen and(min-width:1280px){margin-bottom: 40px;
     margin-top: 72px;
-  
 }
     }
 
@@ -144,7 +142,6 @@
   
     @media screen and(min-width:1280px){
         font-size: 16px;
-        
     }
 }
 
@@ -204,19 +201,40 @@
     left: 50%;
     transform: translate(-50%, -50%);
 
-    width: calc(100% - 80px);
-    height: calc(100% - 160px);
+    background-color: #FFF5F6;
     padding: 30px 50px;
 
-    background-color: #FFF5F6;
-    border-radius:35px;
-    background-image:url(../../images/sectionbg_sm.png);
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position-x:-5%;
-    background-position-y: 90%;
-   
-}
+     @media screen and(max-width:1279px){
+    
+        background-image:url(../../images/sectionbg_sm.png);
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position-y: 95%;
+        
+        @media screen and (min-device-pixel-ratio: 2),
+        screen and (-moz-min-device-pixel-ratio: 2),
+        screen and (-o-min-device-pixel-ratio: 2/1),
+        screen and (-webkit-min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {background-image:url(../../images/sectionbg_sm@2x.png);
+    }
+       
+    }
+
+    @media screen and(min-width:1280px){
+        background-image:url(../../images/sectionbg_lg.png);
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position-y: 95%;
+
+        @media screen and (min-device-pixel-ratio: 2),
+        screen and (-moz-min-device-pixel-ratio: 2),
+        screen and (-o-min-device-pixel-ratio: 2/1),
+        screen and (-webkit-min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {background-image:url(../../images/sectionbg_lg@2x.png);}
+    }
+    }
 
 .form__field{
     margin: 30px 30px 40px 30px;
@@ -226,11 +244,9 @@
     border:2px dotted pink;
 
 }
-
 .form__input:focus{
     border:1px solid pink;
 }
-
 .form__field:focus{
     color:rgba(212, 20, 67, 1);
 }
@@ -256,8 +272,8 @@
     
     align-items: center;
     text-align: center;
-    padding-left: 47px;
-    padding-right: 47px;
+    padding-left: 50px;
+    padding-right: 50px
 }
 
 .form__btn::before{
